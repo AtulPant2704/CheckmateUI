@@ -1,5 +1,9 @@
-/* Primary Button Styling Starts */
-
+:root{
+    --primary-color: #ef4444;
+    --primary-hover-color: #eb2525;
+    --secondary-color: #687280;
+    --secondary-hover-color: #344255;
+}
 .btn{
     margin: 1rem;
     padding: 0.5rem 1rem;
@@ -8,32 +12,34 @@
     border-radius: 5px;
 }
 
+/* Primary Button Styling Starts */
+
 .btn-solid-primary{
-    background-color: rgb(95, 95, 204);
+    background-color: var(--primary-color);
     color: white;
     border: none;
 }
 .btn-solid-primary:hover{
-    background-color: rgb(61, 61, 218);
+    background-color: var(--primary-hover-color);
 }
 
 .btn-outline-primary{
     background-color: white;
-    color: blue;
-    border: 1px solid blue;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 .btn-outline-primary:hover{
     color: white;
-    background-color: blue;
+    background-color: var(--primary-color);
 }
 
 .btn-text-primary{
     background-color: white;
-    color: blue;
+    color: var(--primary-color);
     border: none;
 }
 .btn-text-primary:hover{
-    background-color: rgb(130, 130, 216);
+    background-color: #ffeeee;
 }
 
 /* Primary Button Styling Starts */
@@ -41,8 +47,11 @@
 /* Link Button Styling Starts */
 
 .btn-link{
-    background-color: blueviolet;
+    background-color: var(--secondary-color);
     border: none;
+}
+.btn-link:hover{
+    background-color: var(--secondary-hover-color);
 }
 
 a{
@@ -57,8 +66,11 @@ a{
 
 .btn-text-icon{
     color: white;
-    background-color: blueviolet;
+    background-color: var(--secondary-color);
     border: none;
+}
+.btn-text-icon:hover{
+    background-color: var(--secondary-hover-color);
 }
 .btn-text-icon i{
     color: white;
@@ -70,12 +82,15 @@ a{
 /* Floating Button Styling Starts */
 
 .btn-float{
-    background-color: blueviolet;
+    background-color: var(--primary-color);
     color: white;
     border-radius: 50%;
     border: none;
     height: 3rem;
     width: 3rem;
+}
+.btn-float:hover{
+    background-color: var(--primary-hover-color);
 }
 
 /* Floating Button Styling Ends */
