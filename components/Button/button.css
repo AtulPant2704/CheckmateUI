@@ -1,0 +1,81 @@
+/* Primary Button Styling Starts */
+
+.btn{
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-solid-primary{
+    background-color: rgb(95, 95, 204);
+    color: white;
+    border: none;
+}
+.btn-solid-primary:hover{
+    background-color: rgb(61, 61, 218);
+}
+
+.btn-outline-primary{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+.btn-outline-primary:hover{
+    color: white;
+    background-color: blue;
+}
+
+.btn-text-primary{
+    background-color: white;
+    color: blue;
+    border: none;
+}
+.btn-text-primary:hover{
+    background-color: rgb(130, 130, 216);
+}
+
+/* Primary Button Styling Starts */
+
+/* Link Button Styling Starts */
+
+.btn-link{
+    background-color: blueviolet;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+/* Link Button Styling Starts */
+
+/* Icon Button Styling Starts */
+
+.btn-text-icon{
+    color: white;
+    background-color: blueviolet;
+    border: none;
+}
+.btn-text-icon i{
+    color: white;
+    margin-right: 0.5rem;
+}
+
+/* Icon Button Styling Ends */
+
+/* Floating Button Styling Starts */
+
+.btn-float{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    height: 3rem;
+    width: 3rem;
+}
+
+/* Floating Button Styling Ends */
