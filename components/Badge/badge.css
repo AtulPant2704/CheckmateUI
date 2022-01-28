@@ -1,0 +1,97 @@
+/* Badges on Avatar Styles Starts */
+.badges-avatar {
+    display: flex;
+    gap: 1rem;
+}
+
+.avatar-badge {
+    border-radius: 50%;
+    display: flex;
+    gap: 2rem;
+}
+
+.avatar-badge img {
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+}
+
+.round-badge {
+    height: 0.7rem;
+    width: 0.7rem;
+    border-radius: 50%;
+    bottom: 10%;
+    right: 10%;
+    border: 3px solid white;
+}
+
+/* Styling badge color and position */
+
+.badge-off {
+    position: relative;
+
+}
+
+.badge-off .round-badge {
+    background-color: red;
+}
+
+.badge-on {
+    position: relative;
+
+}
+
+.badge-on .round-badge {
+    background-color: green;
+}
+
+.badge-away {
+    position: relative;
+}
+
+.badge-away .round-badge {
+    background-color: #ff9204;
+}
+
+.round-badge {
+    position: absolute;
+}
+
+/* Badges on Avatar Styles Ends */
+
+/* Badges on Icon Styles Starts */
+
+.badges-icon {
+    display: flex;
+    gap: 1rem;
+}
+
+.icon-badge i {
+    font-size: 2rem;
+}
+
+.badge-count {
+    font-size: 1rem;
+    background-color: red;
+    color: white;
+    height: 1.2rem;
+    width: 1.2rem;
+    text-align: center;
+    border-radius: 50%;
+    top: -25%;
+    right: -25%;
+}
+
+.cart-badge {
+    position: relative;
+}
+
+.mail-badge {
+    position: relative;
+}
+
+.badge-count {
+    position: absolute;
+}
+
+/* Badges on Icon Styles Ends */
