@@ -33,7 +33,6 @@
 }
 
 .badge-off .round-badge {
-    position: absolute;
     background-color: red;
 }
 
@@ -43,18 +42,19 @@
 }
 
 .badge-on .round-badge {
-    position: absolute;
     background-color: green;
 }
 
 .badge-away {
     position: relative;
-
 }
 
 .badge-away .round-badge {
-    position: absolute;
     background-color: #ff9204;
+}
+
+.round-badge {
+    position: absolute;
 }
 
 /* Badges on Avatar Styles Ends */
@@ -70,7 +70,7 @@
     font-size: 2rem;
 }
 
-.badge-count{
+.badge-count {
     font-size: 1rem;
     background-color: red;
     color: white;
@@ -86,15 +86,11 @@
     position: relative;
 }
 
-.cart-badge .badge-count {
-    position: absolute;
-}
-
-.icon-badge {
+.mail-badge {
     position: relative;
 }
 
-.icon-badge .badge-count {
+.badge-count {
     position: absolute;
 }
 
