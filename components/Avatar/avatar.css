@@ -2,7 +2,7 @@
     border-radius: 50%;
 }
 
-.avatar img {
+.avatar .round-img {
     border-radius: 50%;
     height: 6rem;
     width: 6rem;
