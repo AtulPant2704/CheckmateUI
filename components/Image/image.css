@@ -1,0 +1,16 @@
+.img-responsive-container{
+    width: 35vw;
+}
+
+.img-circle-container{
+    width: 15vw;
+}
+
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+.img-circle{
+    border-radius: 50%;
+}
