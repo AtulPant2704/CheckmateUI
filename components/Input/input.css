@@ -1,0 +1,51 @@
+.inputs-container{
+    width: 80%;
+    margin: auto;
+    background-color: #F5F7F9;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.input-group{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 0rem;
+}
+
+.input-group label{
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.input-group input{
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+}
+
+.input-wrong{
+    color: red;
+}
+
+.input-wrong input{
+    border: 1px solid red;
+    outline: none;
+}
+
+.input-right{
+    color: green;
+}
+
+.input-right input{
+    border: 1px solid green;
+    outline: none;
+}
+
+.msg{
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
