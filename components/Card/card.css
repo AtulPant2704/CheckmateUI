@@ -1,0 +1,118 @@
+/* Default Card Styling Starts */
+:root {
+    --primary-color: #ef4444;
+}
+
+.card {
+    width: 20%;
+    height: 40%;
+    padding: 1rem;
+    background-color: rgb(231, 224, 224);
+    border-radius: 0.5rem;
+}
+
+.card-header {
+    position: relative;
+}
+
+.card-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin: 5px 0rem;
+}
+
+.card-subtitle {
+    font-size: 1.2rem;
+    margin: 5px 0rem;
+}
+
+.card-price {
+    font-size: 1.2rem;
+    margin: 5px 0rem;
+}
+
+.card-button {
+    font-size: 1rem;
+    margin: 5px 0rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.card-button:hover {
+    background-color: #eb2525;
+}
+/* Default Card Styling Ends */
+
+/* Badge Card Styling Starts */
+.card-badge {
+    display: inline-block;
+    color: black;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    color: white;
+    background-color: var(--primary-color);
+    padding: 2px 5px;
+    border-top-left-radius: 0.5rem;
+}
+/* Badge Card Styling Ends */
+
+/* Dismiss Card Styling Starts */
+.card-dismiss {
+    display: inline-block;
+    color: black;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    color: white;
+    background-color: var(--primary-color);
+    padding: 5px;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+/* Dismiss Card Styling Ends */
+
+/* Card With Text Overlay Starts */
+.card-text-overlay {
+    display: grid;
+}
+
+.grid-position{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.card-text-overlay .card-text {
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 0.5rem;
+}
+/* Card With Text Overlay Ends */
+
+/* Card With Shadow Styling Starts */
+.card-shadow {
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 20px rgba(0, 0, 0, 0.15);
+}
+/* Card With Shadow Styling Ends */
+
+/* Horizontal Card Styling Starts */
+.card-horizontal {
+    display: flex;
+    gap: 1rem;
+}
+.card-horizontal .card-header {
+    width: 80%;
+}
+/* Horizontal Card Styling Ends */
+
