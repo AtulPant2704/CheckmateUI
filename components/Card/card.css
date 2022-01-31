@@ -50,6 +50,7 @@
 .card-button:hover {
     background-color: #eb2525;
 }
+
 /* Default Card Styling Ends */
 
 /* Badge Card Styling Starts */
@@ -64,6 +65,7 @@
     padding: 2px 5px;
     border-top-left-radius: 0.5rem;
 }
+
 /* Badge Card Styling Ends */
 
 /* Dismiss Card Styling Starts */
@@ -79,6 +81,7 @@
     border-bottom-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
 }
+
 /* Dismiss Card Styling Ends */
 
 /* Card With Text Overlay Starts */
@@ -86,7 +89,7 @@
     display: grid;
 }
 
-.grid-position{
+.grid-position {
     grid-column: 1/2;
     grid-row: 1/2;
 }
@@ -98,41 +101,57 @@
     justify-content: flex-end;
     margin-left: 0.5rem;
 }
+
 /* Card With Text Overlay Ends */
 
 /* Card With Shadow Styling Starts */
 .card-shadow {
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 20px 20px rgba(0, 0, 0, 0.15);
 }
+
 /* Card With Shadow Styling Ends */
 
 /* Horizontal Card Styling Starts */
 .card-horizontal {
+    width: 30%;
     display: flex;
     gap: 1rem;
 }
+
+.card-horizontal .card-header {
+    flex: 1 1 10rem;
+}
+
+.card-horizontal .card-body {
+    flex: 2 1 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .card-horizontal .card-header {
     width: 80%;
 }
+
 /* Horizontal Card Styling Ends */
 
 /* Responsiveness Styling Starts */
-@media only screen and (max-width: 1100px){
-    .card{
+@media only screen and (max-width: 1100px) {
+    .card {
         width: 30%;
     }
 }
 
-@media only screen and (max-width: 850px){
-    .card{
+@media only screen and (max-width: 850px) {
+    .card {
         width: 40%;
     }
 }
 
-@media only screen and (max-width: 550px){
-    .card{
+@media only screen and (max-width: 550px) {
+    .card {
         width: 60%;
     }
 }
-/* Responsiveness Styling Ends */
 
+/* Responsiveness Styling Ends */
