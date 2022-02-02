@@ -8,6 +8,10 @@
     --default-color: #645f55;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Nunito Sans', sans-serif;
 }
