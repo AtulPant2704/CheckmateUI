@@ -1,60 +1,49 @@
 /* Badges on Avatar Styles Starts */
-.badges-avatar {
-    display: flex;
-    gap: 1rem;
+@import url("../get-started.css");
+
+.badges {
+    margin: 1.5rem 0;
 }
 
-.avatar-badge {
-    border-radius: 50%;
+/* Badges on Avatar Styles Starts */
+
+.badges-avatar {
     display: flex;
     gap: 2rem;
 }
 
+.avatar-badge {
+    border-radius: 50%;
+    position: relative;
+}
+
 .avatar-badge img {
     border-radius: 50%;
+    object-fit: cover;
     height: 5rem;
     width: 5rem;
 }
 
 .round-badge {
-    height: 0.7rem;
-    width: 0.7rem;
+    height: 1rem;
+    width: 1rem;
     border-radius: 50%;
+    position: absolute;
     bottom: 10%;
     right: 10%;
-    border: 3px solid white;
-}
-
-/* Styling badge color and position */
-
-.badge-off {
-    position: relative;
-
+    border: 1px solid white;
 }
 
 .badge-off .round-badge {
-    background-color: red;
-}
-
-.badge-on {
-    position: relative;
-
+    background-color: var(--danger-color);
 }
 
 .badge-on .round-badge {
-    background-color: green;
-}
-
-.badge-away {
-    position: relative;
+    background-color: var(--success-color);
 }
 
 .badge-away .round-badge {
-    background-color: #ff9204;
-}
-
-.round-badge {
-    position: absolute;
+    background-color: var(--warning-color);
 }
 
 /* Badges on Avatar Styles Ends */
@@ -63,7 +52,11 @@
 
 .badges-icon {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
+}
+
+.icon-badge {
+    position: relative;
 }
 
 .icon-badge i {
@@ -72,26 +65,15 @@
 
 .badge-count {
     font-size: 1rem;
-    background-color: red;
+    background-color: var(--danger-color);
     color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -25%;
+    right: -25%;
     height: 1.2rem;
     width: 1.2rem;
     text-align: center;
-    border-radius: 50%;
-    top: -25%;
-    right: -25%;
-}
-
-.cart-badge {
-    position: relative;
-}
-
-.mail-badge {
-    position: relative;
-}
-
-.badge-count {
-    position: absolute;
 }
 
 /* Badges on Icon Styles Ends */
