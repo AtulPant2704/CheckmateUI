@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #656d4a;
+    --primary-hover-color: #4C5431;
+    --secondary-color: #202528;
+    --secondary-hover-color: #393e41;
+    --default-color: #645f55;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
