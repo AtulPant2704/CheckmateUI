@@ -1,0 +1,23 @@
+@import url("./utility.css");
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.title {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+.menu-bar {
+    margin-left: auto;
+    border: none;
+    background-color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--secondary-color);
+}
