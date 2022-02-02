@@ -1,0 +1,95 @@
+@import url("./css/reset.css");
+@import url("./css/utility.css");
+
+body {
+    width: 90%;
+    margin: auto;
+    padding-top: 1.5rem;
+    max-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar Styling Starts */
+
+.header {
+    display: flex;
+    max-height: 10vh;
+}
+
+.title {
+    color: var(--primary-color);
+}
+
+.docs-link {
+    margin-left: auto;
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+}
+
+/* Navbar Styling Ends */
+
+/* Landing-Page Styling Starts */
+
+.landing-page {
+    height: 90vh;
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem 0rem;
+    color: var(--primary-hover-color);
+}
+
+.description {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
+    line-height: 2rem;
+    color: var(--default-color);
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-docs {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.btn-docs:hover {
+    color: white;
+    background-color: var(--primary-hover-color);
+}
+
+.btn-github {
+    color: var(--primary-color);
+    background: white;
+    border: 1px solid var(--primary-color);
+}
+
+.btn-github:hover {
+    color: white;
+    background-color: var(--primary-hover-color);
+}
+
+/* Landing-Page Styling Ends */
