@@ -1,11 +1,16 @@
+@import url("../get-started.css");
+
 .avatar {
     border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    margin: 1.5rem 0;
 }
 
 .avatar .round-img {
     border-radius: 50%;
-    height: 6rem;
-    width: 6rem;
+    width: 100%;
+    object-fit: cover;
 }
 
 .avatar-container {
@@ -14,17 +19,28 @@
     align-items: center;
 }
 
-.avatar-lg img {
+.avatar-lg {
     height: 8rem;
     width: 8rem;
 }
 
-.avatar-md img {
+.avatar-md {
     height: 5rem;
     width: 5rem;
 }
 
-.avatar-sm img {
+.avatar-sm {
     height: 3rem;
     width: 3rem;
+}
+
+.iframe-sm {
+    height: 25vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.iframe-md {
+    height: 50vh;
 }

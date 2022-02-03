@@ -6,6 +6,18 @@
     --secondary-color: #202528;
     --secondary-hover-color: #393e41;
     --default-color: #645f55;
+    --danger-color: #D61010;
+    --danger-light-color: #fadbdd;
+    --success-color: #558D14;
+    --success-light-color: #dbffdd;
+    --warning-color: #ff9204;
+    --warning-light-color: #f9f7dc;
+    --info-color: #00A2FF;
+    --info-light-color: #e0f4ff;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
