@@ -77,3 +77,16 @@
 }
 
 /* Badges on Icon Styles Ends */
+
+/* iFrame Styles Starts */
+
+.iframe-md {
+    width: 100%;
+}
+
+.iframe-sm {
+    height: 38vh;
+    width: 50%;
+}
+
+/* iFrame Styles Ends */

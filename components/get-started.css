@@ -2,3 +2,15 @@
 @import url("../css/utility.css");
 @import url("../css/header.css");
 @import url("../css/documentation.css");
+
+.section-para {
+    margin-bottom: 1.5rem;
+}
+
+.iframe-sm {
+    height: 15vh;
+}
+
+.iframe-lg {
+    height: 70vh;
+}
