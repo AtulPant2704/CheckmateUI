@@ -1,8 +1,14 @@
+@import url("../get-started.css");
+
+.alert-container {
+    margin: 2rem 0;
+}
+
 .alert {
     width: 80%;
-    margin: 2rem auto;
+    margin: 2rem 0;
     padding: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -13,33 +19,38 @@
 }
 
 .alert-info {
-    background-color: #e0f4ff;
+    background-color: var(--info-light-color);
 }
 
 .alert-info span {
-    color: #00A2FF;
+    color: var(--info-color);
 }
 
 .alert-success {
-    background-color: #dbffdd;
+    background-color: var(--success-light-color);
 }
 
 .alert-success span {
-    color: #558D14;
+    color: var(--success-color);
 }
 
 .alert-danger {
-    background-color: #fadbdd;
+    background-color: var(--danger-light-color);
 }
 
 .alert-danger span {
-    color: #D61010;
+    color: var(--danger-color);
 }
 
 .alert-warning {
-    background-color: #f9f7dc;
+    background-color: var(--warning-light-color);
 }
 
 .alert-warning span {
-    color: #ff9204;
+    color: var(--warning-color);
+}
+
+.iframe-md {
+    margin-top: 3rem;
+    height: 70vh;
 }
