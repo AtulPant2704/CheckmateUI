@@ -1,11 +1,6 @@
-:root{
-    --primary-color: #ef4444;
-    --primary-hover-color: #eb2525;
-    --secondary-color: #687280;
-    --secondary-hover-color: #344255;
-}
-.btn{
-    margin: 1rem;
+@import url("../get-started.css");
+
+.btn {
     padding: 0.5rem 1rem;
     font-size: 1.2rem;
     cursor: pointer;
@@ -14,31 +9,41 @@
 
 /* Primary Button Styling Starts */
 
-.btn-solid-primary{
+.btn-container {
+    margin: 1.5rem 0;
+    display: inline-flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn-solid-primary {
     background-color: var(--primary-color);
     color: white;
     border: none;
 }
-.btn-solid-primary:hover{
+
+.btn-solid-primary:hover {
     background-color: var(--primary-hover-color);
 }
 
-.btn-outline-primary{
+.btn-outline-primary {
     background-color: white;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
 }
-.btn-outline-primary:hover{
+
+.btn-outline-primary:hover {
     color: white;
     background-color: var(--primary-color);
 }
 
-.btn-text-primary{
+.btn-text-primary {
     background-color: white;
     color: var(--primary-color);
     border: none;
 }
-.btn-text-primary:hover{
+
+.btn-text-primary:hover {
     background-color: #ffeeee;
 }
 
@@ -46,15 +51,17 @@
 
 /* Link Button Styling Starts */
 
-.btn-link{
+.btn-link {
     background-color: var(--secondary-color);
     border: none;
+    margin: 1rem 0;
 }
-.btn-link:hover{
+
+.btn-link:hover {
     background-color: var(--secondary-hover-color);
 }
 
-a{
+.btn-link a {
     text-decoration: none;
     color: white;
     padding: 0.5rem 1rem;
@@ -64,15 +71,28 @@ a{
 
 /* Icon Button Styling Starts */
 
-.btn-text-icon{
+.btn-text-icon {
     color: white;
-    background-color: var(--secondary-color);
     border: none;
 }
-.btn-text-icon:hover{
+
+.btn-text-icon-primary {
+    background-color: var(--primary-color);
+}
+
+.btn-text-icon-secondary {
+    background-color: var(--secondary-color);
+}
+
+.btn-text-icon-primary:hover {
+    background-color: var(--primary-hover-color);
+}
+
+.btn-text-icon-secondary:hover {
     background-color: var(--secondary-hover-color);
 }
-.btn-text-icon i{
+
+.btn-text-icon i {
     color: white;
     margin-right: 0.5rem;
 }
@@ -81,16 +101,49 @@ a{
 
 /* Floating Button Styling Starts */
 
-.btn-float{
-    background-color: var(--primary-color);
+.btn-float {
     color: white;
     border-radius: 50%;
     border: none;
-    height: 3rem;
-    width: 3rem;
+    height: 4rem;
+    width: 4rem;
+    font-size: 1.3rem;
 }
-.btn-float:hover{
+
+.btn-float-primary {
+    background-color: var(--primary-color);
+}
+
+.btn-float-secondary {
+    background-color: var(--secondary-color);
+}
+
+.btn-float-primary:hover {
     background-color: var(--primary-hover-color);
 }
 
+.btn-float-secondary:hover {
+    background-color: var(--secondary-hover-color);
+}
+
 /* Floating Button Styling Ends */
+
+/* Iframe Styling Starts */
+
+.iframe-sm {
+    height: 22vh;
+}
+
+.iframe-vs {
+    height: 18vh;
+}
+
+.iframe-lg {
+    height: 42vh;
+}
+
+.iframe-md {
+    height: 32vh;
+}
+
+/* Iframe Styling Ends */
