@@ -1,16 +1,26 @@
-.img-responsive-container{
+@import url("../get-started.css");
+
+.img-container {
+    margin: 2rem 0;
+}
+
+.img-responsive-container {
     width: 35vw;
 }
 
-.img-circle-container{
+.img-circle-container {
     width: 15vw;
 }
 
-.img-responsive{
+.img-responsive {
     max-width: 100%;
     height: auto;
 }
 
-.img-circle{
+.img-circle {
     border-radius: 50%;
+}
+
+.iframe-sm {
+    height: 20vh;
 }
