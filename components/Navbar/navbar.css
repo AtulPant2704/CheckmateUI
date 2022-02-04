@@ -1,93 +1,106 @@
-:root{
-    --primary-color: #9A9A9A;
-}
+@import url("../get-started.css");
 
 /* Positioning of Elements Starts */
-nav{
+.nav-header {
     display: flex;
     align-items: center;
-    padding: 0rem 5rem;
+    padding: 1rem;
     max-width: 100vw;
-    box-shadow: 0px 5px 10px 0 rgba(0,0,0,0.1),0px 5px 10px 0 rgba(0,0,0,0.1);
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.1), 0px 5px 10px 0 rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
 }
 
-.title-and-search{
+.title-and-search {
     display: flex;
-    flex: 3 1 10rem;
+    flex: 3 1 8rem;
     justify-content: space-between;
     align-items: center;
 }
 
-.user-controls{
-    flex: 1 1 10rem;
+.user-controls {
+    flex: 1 1 8rem;
     margin-left: 10rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.cart{
+.cart {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
+
 /* Positioning of Elements Ends */
 
 /* Title and Search Styling Starts */
-.title{
+.title {
     color: var(--primary-color);
+    font-size: 1.5rem;
 }
 
-.btn-search{
-    color: var(--primary-color);
-}
-
-.search{
+.search {
     border: 1px solid var(--primary-color);
     width: 50%;
     padding: 0.5rem 1rem;
+    display: flex;
+    gap: 1rem;
 }
 
-.input-search{
+.btn-search {
+    color: var(--primary-color);
+}
+
+.input-search {
     border: none;
     outline: none;
     font-size: 1.2rem;
+    width: 80%;
 }
+
 /* Title and Search Styling Ends */
 
 /* Buttons and Icons Styling Starts */
-.btn-login{
-    padding: 0.2rem 1rem;
-    font-size: 1.2rem;
+.btn-login {
+    padding: 0.4rem 1rem;
+    font-size: 1.1rem;
     background-color: var(--primary-color);
     color: white;
     border: none;
     cursor: pointer;
 }
 
-.btn-check{
+.btn-check {
     position: relative;
 }
 
-.btn-check i{
+.btn-check i {
     color: var(--primary-color);
     font-size: 1.5rem;
 }
 
-.count{
+.count {
     position: absolute;
     top: -30%;
     right: -30%;
-    background-color: #EF4444;
+    background-color: var(--danger-color);
     color: white;
     width: 1.1rem;
     height: 1.1rem;
     border-radius: 50%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.cart-name{
+.cart-name {
     color: var(--primary-color);
     font-size: 1.2rem;
 }
+
 /* Buttons and Icons Styling Ends */
+
+.iframe-lg {
+    margin-top: 3rem;
+    height: 82vh;
+}
