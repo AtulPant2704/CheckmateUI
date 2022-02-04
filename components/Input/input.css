@@ -1,51 +1,61 @@
-.inputs-container{
-    width: 80%;
-    margin: auto;
+@import url("../get-started.css");
+
+.input-container {
+    width: 100%;
+    margin: 2rem 0;
     background-color: #F5F7F9;
     border: 1px solid black;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
 }
 
-.input-group{
+.input-group {
     width: 80%;
     margin: auto;
     margin-bottom: 1.5rem;
     padding: 0.5rem 0rem;
 }
 
-.input-group label{
+.input-group label {
     display: block;
     font-size: 1.2rem;
     margin-bottom: 5px;
 }
 
-.input-group input{
+.input-group input {
     width: 100%;
     font-size: 1.2rem;
     padding: 0.5rem 1rem;
     outline: none;
 }
 
-.input-wrong{
-    color: red;
+.input-wrong {
+    color: var(--danger-color);
 }
 
-.input-wrong input{
-    border: 1px solid red;
+.input-wrong input {
+    border: 1px solid var(--danger-color);
     outline: none;
 }
 
-.input-right{
-    color: green;
+.input-right {
+    color: var(--success-color);
 }
 
-.input-right input{
-    border: 1px solid green;
+.input-right input {
+    border: 1px solid var(--success-color);
     outline: none;
 }
 
-.msg{
+.msg {
     font-size: 1.2rem;
     margin-top: 0.5rem;
+}
+
+.iframe-sm {
+    height: 25vh;
+}
+
+.iframe-md {
+    height: 40vh;
 }
