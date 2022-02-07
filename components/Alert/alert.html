@@ -11,57 +11,83 @@
 </head>
 
 <body>
+
+    <nav class="header">
+        <a href="../../index.html" class="title">
+            <h2>CheckMate UI</h2>
+        </a>
+        <button class="menu-open"><i class="fas fa-bars"></i></button>
+    </nav>
+
     <main>
 
-        <nav class="header">
-            <a href="../../index.html" class="title">
-                <h2>CheckMate UI</h2>
-            </a>
-            <button class="menu-bar"><i class="fas fa-bars"></i></button>
-        </nav>
+        <aside>
+            <ul class="menu-items">
+                <li class="link"><a href="../get-started.html">Getting Started</a></li>
+                <li class="link"><a href="../Avatar/avatar.html">Avatar</a></li>
+                <li class="link"><a href="../Badge/badge.html">Badge</a></li>
+                <li class="link"><a href="../Alert/alert.html">Alert</a></li>
+                <li class="link"><a href="../Button/button.html">Button</a></li>
+                <li class="link"><a href="../Card/card.html">Card</a></li>
+                <li class="link"><a href="../Image/image.html">Image</a></li>
+                <li class="link"><a href="../Input/input.html">Input</a></li>
+                <li class="link"><a href="../List/list.html">List</a></li>
+                <li class="link"><a href="../Navbar/navbar.html">Navbar</a></li>
+                <li class="link"><a href="../Typography/typography.html">Typography</a></li>
+            </ul>
+        </aside>
 
-        <section>
-            <h2 class="page-title">Alert</h2>
-            <p class="section-para">An Alert is used to attract user's attraction to an important piece of information
-                in a short and attractive way without breaking the user's flow.</p>
-        </section>
+        <section class="main-section">
 
-        <section>
-            <h2 class="section-heading">Simple Alert</h2>
-            <p class="section-para">Primarly there are four types of alerts which can be used by adding <span
-                    class="colored-text">alert-info</span>, <span class="colored-text">alert-success</span>, <span
-                    class="colored-text">alert-danger</span> or <span class="colored-text">alert-warning</span> classes
-                to the existing alert class.</p>
-            <div class="alert-container">
-                <div class="alert alert-info">
-                    <span><i class="fas fa-info-circle"></i></span>
-                    A info alert example!!!!
+            <section>
+                <h2 class="page-title">Alert</h2>
+                <p class="section-para">An Alert is used to attract user's      attraction to an important piece of information in a short and attractive way without breaking the user's flow.
+                </p>
+            </section>
+    
+            <section>
+                <h2 class="section-heading">Simple Alert</h2>
+                <p class="section-para">Primarly there are four types of alerts which can be used by adding 
+                    <span class="colored-text">alert-info</span>, '
+                    <span class="colored-text">alert-success</span>, 
+                    <span class="colored-text">alert-danger</span> or 
+                    <span class="colored-text">alert-warning</span> 
+                    classes to the existing alert class.
+                </p>
+                <div class="alert-container">
+                    <div class="alert alert-info">
+                        <span><i class="fas fa-info-circle"></i></span>
+                        A info alert example!!!!
+                    </div>
+    
+                    <div class="alert alert-success">
+                        <span><i class="fas fa-check-circle"></i></span>
+                        A success alert example!!!!
+                    </div>
+    
+                    <div class="alert alert-danger">
+                        <span><i class="fas fa-exclamation-triangle"></i></span>
+                        A danger alert example!!!!
+                    </div>
+    
+                    <div class="alert alert-warning">
+                        <span><i class="fas fa-exclamation-triangle"></i></span>
+                        A warning alert example!!!!
+                    </div>
                 </div>
-
-                <div class="alert alert-success">
-                    <span><i class="fas fa-check-circle"></i></span>
-                    A success alert example!!!!
+                <div class="iframe-wrapper iframe-md">
+                    <iframe class="iframe-code"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520A%2520info%2520alert%2520example%21%21%21%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520A%2520success%2520alert%2520example%21%21%21%21%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520A%2520danger%2520alert%2520example%21%21%21%21%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520A%2520warning%2520alert%2520example%21%21%21%21%250A%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
                 </div>
+            </section>
 
-                <div class="alert alert-danger">
-                    <span><i class="fas fa-exclamation-triangle"></i></span>
-                    A danger alert example!!!!
-                </div>
-
-                <div class="alert alert-warning">
-                    <span><i class="fas fa-exclamation-triangle"></i></span>
-                    A warning alert example!!!!
-                </div>
-            </div>
-            <div class="iframe-wrapper iframe-md">
-                <iframe class="iframe-code"
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520A%2520info%2520alert%2520example%21%21%21%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520A%2520success%2520alert%2520example%21%21%21%21%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520A%2520danger%2520alert%2520example%21%21%21%21%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520A%2520warning%2520alert%2520example%21%21%21%21%250A%253C%252Fdiv%253E"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
         </section>
 
     </main>
+
+    <script src="../../js/header.js"></script>
 </body>
 
 </html>

@@ -12,123 +12,146 @@
 </head>
 
 <body>
+
+    <nav class="header">
+        <a href="../../index.html" class="title">
+            <h2>CheckMate UI</h2>
+        </a>
+        <button class="menu-open"><i class="fas fa-bars"></i></button>
+    </nav>
+
     <main>
 
-        <nav class="header">
-            <a href="../../index.html" class="title">
-                <h2>CheckMate UI</h2>
-            </a>
-            <button class="menu-bar"><i class="fas fa-bars"></i></button>
-        </nav>
+        <aside>
+            <ul class="menu-items">
+                <li class="link"><a href="../get-started.html">Getting Started</a></li>
+                <li class="link"><a href="../Avatar/avatar.html">Avatar</a></li>
+                <li class="link"><a href="../Badge/badge.html">Badge</a></li>
+                <li class="link"><a href="../Alert/alert.html">Alert</a></li>
+                <li class="link"><a href="../Button/button.html">Button</a></li>
+                <li class="link"><a href="../Card/card.html">Card</a></li>
+                <li class="link"><a href="../Image/image.html">Image</a></li>
+                <li class="link"><a href="../Input/input.html">Input</a></li>
+                <li class="link"><a href="../List/list.html">List</a></li>
+                <li class="link"><a href="../Navbar/navbar.html">Navbar</a></li>
+                <li class="link"><a href="../Typography/typography.html">Typography</a></li>
+            </ul>
+        </aside>
 
-        <section>
-            <h2 class="page-title">Typography</h2>
-            <p class="section-para">
-                Documentation and text utilities which CheckMate follows that you can use in your project.
-            </p>
-        </section>
+        <section class="main-section">
 
-        <section>
-            <h2 class="section-heading">Heading</h2>
-            <p class="section-para">
-                You can use heading from
-                <span class="colored-text">h1</span> to
-                <span class="colored-text">h6</span>
-                for different headings.
-            </p>
-            <div class="container">
-                <h1 class="h1">Heading 1</h1>
-                <h2 class="h2">Heading 2</h2>
-                <h3 class="h3">Heading 3</h3>
-                <h4 class="h4">Heading 4</h4>
-                <h5 class="h5">Heading 5</h5>
-                <h6 class="h6">Heading 6</h6>
-            </div>
-            <div class="iframe-wrapper iframe-lg">
-                <iframe class="iframe-code"
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%253EHeading%25201%253C%252Fh1%253E%250A%253Ch2%253EHeading%25202%253C%252Fh2%253E%250A%253Ch3%253EHeading%25203%253C%252Fh3%253E%250A%253Ch4%253EHeading%25204%253C%252Fh4%253E%250A%253Ch5%253EHeading%25205%253C%252Fh5%253E%250A%253Ch6%253EHeading%25206%253C%252Fh6%253E"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-        </section>
+            <section>
+                <h2 class="page-title">Typography</h2>
+                <p class="section-para">
+                    Documentation and text utilities which CheckMate follows that you can use in your project.
+                </p>
+            </section>
+    
+            <section>
+                <h2 class="section-heading">Heading</h2>
+                <p class="section-para">
+                    You can use heading from
+                    <span class="colored-text">h1</span> to
+                    <span class="colored-text">h6</span>
+                    for different headings.
+                </p>
+                <div class="container">
+                    <h1 class="h1">Heading 1</h1>
+                    <h2 class="h2">Heading 2</h2>
+                    <h3 class="h3">Heading 3</h3>
+                    <h4 class="h4">Heading 4</h4>
+                    <h5 class="h5">Heading 5</h5>
+                    <h6 class="h6">Heading 6</h6>
+                </div>
+                <div class="iframe-wrapper iframe-lg">
+                    <iframe class="iframe-code"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%253EHeading%25201%253C%252Fh1%253E%250A%253Ch2%253EHeading%25202%253C%252Fh2%253E%250A%253Ch3%253EHeading%25203%253C%252Fh3%253E%250A%253Ch4%253EHeading%25204%253C%252Fh4%253E%250A%253Ch5%253EHeading%25205%253C%252Fh5%253E%250A%253Ch6%253EHeading%25206%253C%252Fh6%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+    
+            <section>
+                <h2 class="section-heading">Paragraph</h2>
+                <p class="section-para">
+                    You can use different paragraph fonts for different font sizes like
+                    <span class="colored-text">.body-cp-rg</span> for regular font,
+                    <span class="colored-text">.body-cp-lg</span> for large font,
+                    <span class="colored-text">.body-cp-md</span> for medium font and
+                    <span class="colored-text">.body-cp-sm</span> for small font.
+                </p>
+                <div class="container">
+                    <p class="p body-cp-lg">Pragraph body-copy-large</p>
+                    <p class="p body-cp-rg">Paragraph body-copy-regular</p>
+                    <p class="p body-cp-md">Paragraph body-copy-medium</p>
+                    <p class="p body-cp-sm">Paragraph body-copy-small</p>
+                </div>
+                <div class="iframe-wrapper iframe-md">
+                    <iframe class="iframe-code"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522p%2520body-cp-lg%2522%253EPragraph%2520body-copy-large%253C%252Fp%253E%250A%253Cp%2520class%253D%2522p%2520body-cp-rg%2522%253EParagraph%2520body-copy-regular%253C%252Fp%253E%250A%253Cp%2520class%253D%2522p%2520body-cp-md%2522%253EParagraph%2520body-copy-medium%253C%252Fp%253E%250A%253Cp%2520class%253D%2522p%2520body-cp-sm%2522%253EParagraph%2520body-copy-small%253C%252Fp%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+    
+            <section>
+                <h2 class="section-heading">Alignment</h2>
+                <p class="section-para">
+                    You can use
+                    <span class="colored-text">.align-left</span>,
+                    <span class="colored-text">.align-center</span> and
+                    <span class="colored-text">.align-right</span>
+                    classes for aligning content to the left, center and right.
+                </p>
+                <div class="container">
+                    <h3 class="align-left">Align Left</h3>
+                    <h3 class="align-center">Align Center</h3>
+                    <h3 class="align-right">Align Right</h3>
+                </div>
+                <div class="iframe-wrapper iframe-sm">
+                    <iframe class="iframe-code"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch3%2520class%253D%2522align-left%2522%253EAlign%2520Left%253C%252Fh3%253E%250A%253Ch3%2520class%253D%2522align-center%2522%253EAlign%2520Center%253C%252Fh3%253E%250A%253Ch3%2520class%253D%2522align-right%2522%253EAlign%2520Right%253C%252Fh3%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+    
+            <section>
+                <h2 class="section-heading">Extra Styles</h2>
+                <p class="section-para">
+                    <ul class="extra-styles">
+                        <li>To make a text gray, use
+                            <span class="colored-text">.gray-text</span>
+                            class.
+                        </li>
+                        <li>To add strike-through on text, use
+                            <span class="colored-text">.text-strike</span>
+                            class.
+                        </li>
+                        <li>To underline a text, use
+                            <span class="colored-text">.text-underline</span>
+                            class.
+                        </li>
+                    </ul>
+                </p>
+                <div class="container">
+                    <p class="gray-text">This is a gray text.</p>
+                    <p class="text-strike">This text has a line going through it.</p>
+                    <p class="text-underline">This text is underlined.</p>
+                </div>
+                <div class="iframe-wrapper iframe-sm">
+                    <iframe class="iframe-code"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522gray-text%2522%253EThis%2520is%2520a%2520gray%2520text.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-strike%2522%253EThis%2520text%2520has%2520a%2520line%2520going%2520through%2520it.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-underline%2522%253EThis%2520text%2520is%2520underlined.%253C%252Fp%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
 
-        <section>
-            <h2 class="section-heading">Paragraph</h2>
-            <p class="section-para">
-                You can use different paragraph fonts for different font sizes like
-                <span class="colored-text">.body-cp-rg</span> for regular font,
-                <span class="colored-text">.body-cp-lg</span> for large font,
-                <span class="colored-text">.body-cp-md</span> for medium font and
-                <span class="colored-text">.body-cp-sm</span> for small font.
-            </p>
-            <div class="container">
-                <p class="p body-cp-lg">Pragraph body-copy-large</p>
-                <p class="p body-cp-rg">Paragraph body-copy-regular</p>
-                <p class="p body-cp-md">Paragraph body-copy-medium</p>
-                <p class="p body-cp-sm">Paragraph body-copy-small</p>
-            </div>
-            <div class="iframe-wrapper iframe-md">
-                <iframe class="iframe-code"
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522p%2520body-cp-lg%2522%253EPragraph%2520body-copy-large%253C%252Fp%253E%250A%253Cp%2520class%253D%2522p%2520body-cp-rg%2522%253EParagraph%2520body-copy-regular%253C%252Fp%253E%250A%253Cp%2520class%253D%2522p%2520body-cp-md%2522%253EParagraph%2520body-copy-medium%253C%252Fp%253E%250A%253Cp%2520class%253D%2522p%2520body-cp-sm%2522%253EParagraph%2520body-copy-small%253C%252Fp%253E"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-        </section>
-
-        <section>
-            <h2 class="section-heading">Alignment</h2>
-            <p class="section-para">
-                You can use
-                <span class="colored-text">.align-left</span>,
-                <span class="colored-text">.align-center</span> and
-                <span class="colored-text">.align-right</span>
-                classes for aligning content to the left, center and right.
-            </p>
-            <div class="container">
-                <h3 class="align-left">Align Left</h3>
-                <h3 class="align-center">Align Center</h3>
-                <h3 class="align-right">Align Right</h3>
-            </div>
-            <div class="iframe-wrapper iframe-sm">
-                <iframe class="iframe-code"
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch3%2520class%253D%2522align-left%2522%253EAlign%2520Left%253C%252Fh3%253E%250A%253Ch3%2520class%253D%2522align-center%2522%253EAlign%2520Center%253C%252Fh3%253E%250A%253Ch3%2520class%253D%2522align-right%2522%253EAlign%2520Right%253C%252Fh3%253E"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
-        </section>
-
-        <section>
-            <h2 class="section-heading">Extra Styles</h2>
-            <p class="section-para">
-                <ul class="extra-styles">
-                    <li>To make a text gray, use
-                        <span class="colored-text">.gray-text</span>
-                        class.
-                    </li>
-                    <li>To add strike-through on text, use
-                        <span class="colored-text">.text-strike</span>
-                        class.
-                    </li>
-                    <li>To underline a text, use
-                        <span class="colored-text">.text-underline</span>
-                        class.
-                    </li>
-                </ul>
-            </p>
-            <div class="container">
-                <p class="gray-text">This is a gray text.</p>
-                <p class="text-strike">This text has a line going through it.</p>
-                <p class="text-underline">This text is underlined.</p>
-            </div>
-            <div class="iframe-wrapper iframe-sm">
-                <iframe class="iframe-code"
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522gray-text%2522%253EThis%2520is%2520a%2520gray%2520text.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-strike%2522%253EThis%2520text%2520has%2520a%2520line%2520going%2520through%2520it.%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-underline%2522%253EThis%2520text%2520is%2520underlined.%253C%252Fp%253E"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
         </section>
 
     </main>
+
+    <script src="../../js/header.js"></script>
 </body>
 
 </html>

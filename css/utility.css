@@ -1,26 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap");
 
 :root {
-    --primary-color: #656d4a;
-    --primary-hover-color: #4C5431;
-    --secondary-color: #202528;
-    --secondary-hover-color: #393e41;
-    --default-color: #645f55;
-    --border-light-color: #BDB0B0;
-    --danger-color: #D61010;
-    --danger-light-color: #fadbdd;
-    --success-color: #558D14;
-    --success-light-color: #dbffdd;
-    --warning-color: #ff9204;
-    --warning-light-color: #f9f7dc;
-    --info-color: #00A2FF;
-    --info-light-color: #e0f4ff;
+  --primary-color: #656d4a;
+  --primary-hover-color: #4c5431;
+  --secondary-color: #202528;
+  --secondary-hover-color: #393e41;
+  --default-color: #645f55;
+  --border-light-color: #bdb0b0;
+  --row-color: #d7d7d7;
+  --danger-color: #d61010;
+  --danger-light-color: #fadbdd;
+  --success-color: #558d14;
+  --success-light-color: #dbffdd;
+  --warning-color: #ff9204;
+  --warning-light-color: #f9f7dc;
+  --info-color: #00a2ff;
+  --info-light-color: #e0f4ff;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
