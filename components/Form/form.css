@@ -60,6 +60,10 @@
   cursor: pointer;
 }
 
+.btn-submit:hover {
+  background: var(--secondary-hover-color);
+}
+
 .new-account {
   color: black;
   font-weight: 500;
