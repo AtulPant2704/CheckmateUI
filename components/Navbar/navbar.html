@@ -12,59 +12,82 @@
 </head>
 
 <body>
+
+    <nav class="header">
+        <a href="../../index.html" class="title">
+            <h2>CheckMate UI</h2>
+        </a>
+        <button class="menu-open"><i class="fas fa-bars"></i></button>
+    </nav>
+
     <main>
 
-        <nav class="header">
-            <a href="../../index.html" class="title">
-                <h2>CheckMate UI</h2>
-            </a>
-            <button class="menu-bar"><i class="fas fa-bars"></i></button>
-        </nav>
+        <aside>
+            <ul class="menu-items">
+                <li class="link"><a href="../get-started.html">Getting Started</a></li>
+                <li class="link"><a href="../Avatar/avatar.html">Avatar</a></li>
+                <li class="link"><a href="../Badge/badge.html">Badge</a></li>
+                <li class="link"><a href="../Alert/alert.html">Alert</a></li>
+                <li class="link"><a href="../Button/button.html">Button</a></li>
+                <li class="link"><a href="../Card/card.html">Card</a></li>
+                <li class="link"><a href="../Image/image.html">Image</a></li>
+                <li class="link"><a href="../Input/input.html">Input</a></li>
+                <li class="link"><a href="../List/list.html">List</a></li>
+                <li class="link"><a href="../Navbar/navbar.html">Navbar</a></li>
+                <li class="link"><a href="../Typography/typography.html">Typography</a></li>
+            </ul>
+        </aside>
 
-        <section>
-            <h2 class="page-title">Navigation bar</h2>
-            <p class="section-para">
-                Navigation bar is generally placed at the top of the website which contains routes to different sections of a website or some most used functionalities in a website.
-            </p>
-        </section>
+        <section class="main-section">
 
-        <section>
-            <h2 class="section-heading">E-commerce Navbar</h2>
-            <p class="section-para">
-                E-commerce Navbar containing the name of the website with the search functionality, login button and wishlist and cart button.
-            </p>
-            <div class="nav-header">
-                <div class="title-and-search">
-                    <h2 class="title">My Website</h2>
-                    <div class="search">
-                        <span class="btn-search"><i class="fas fa-search"></i></span>
-                        <input type="text" placeholder="Search" class="input-search">
+            <section>
+                <h2 class="page-title">Navigation bar</h2>
+                <p class="section-para">
+                    Navigation bar is generally placed at the top of the website which contains routes to different sections of a website or some most used functionalities in a website.
+                </p>
+            </section>
+    
+            <section>
+                <h2 class="section-heading">E-commerce Navbar</h2>
+                <p class="section-para">
+                    E-commerce Navbar containing the name of the website with the search functionality, login button and wishlist and cart button.
+                </p>
+                <div class="nav-header">
+                    <div class="title-and-search">
+                        <h2 class="title">My Website</h2>
+                        <div class="search">
+                            <span class="btn-search"><i class="fas fa-search"></i></span>
+                            <input type="text" placeholder="Search" class="input-search">
+                        </div>
                     </div>
-                </div>
-                <div class="user-controls">
-                    <button class="btn-login">Login</button>
-                    <div class="btn-check">
-                        <i class="far fa-heart"></i>
-                        <span class="count">0</span>
-                    </div>
-                    <div class="cart">
+                    <div class="user-controls">
+                        <button class="btn-login">Login</button>
                         <div class="btn-check">
-                            <i class="fas fa-shopping-cart"></i>
+                            <i class="far fa-heart"></i>
                             <span class="count">0</span>
                         </div>
-                        <p class="cart-name">Cart</p>
+                        <div class="cart">
+                            <div class="btn-check">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="count">0</span>
+                            </div>
+                            <p class="cart-name">Cart</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="iframe-wrapper iframe-lg">
-                <iframe class="iframe-code"
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522nav-header%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title-and-search%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522title%2522%253EMy%2520Website%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522search%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522btn-search%2522%253E%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Search%2522%2520class%253D%2522input-search%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522user-controls%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-login%2522%253ELogin%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-check%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522count%2522%253E0%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-check%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522count%2522%253E0%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522cart-name%2522%253ECart%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            </div>
+                <div class="iframe-wrapper iframe-lg">
+                    <iframe class="iframe-code"
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522nav-header%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title-and-search%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522title%2522%253EMy%2520Website%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522search%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522btn-search%2522%253E%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Search%2522%2520class%253D%2522input-search%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522user-controls%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-login%2522%253ELogin%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-check%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522count%2522%253E0%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-check%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522count%2522%253E0%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522cart-name%2522%253ECart%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
         </section>
 
     </main>
+
+    <script src="../../js/header.js"></script>
 </body>
 
 </html>
