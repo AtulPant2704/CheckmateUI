@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://kit.fontawesome.com/829cb68a23.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="../images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./form.css">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <nav class="header">
+        <a href="../../index.html" class="title">
+            <h2>CheckMate UI</h2>
+        </a>
+        <button class="menu-open"><i class="fas fa-bars"></i></button>
+    </nav>
+
+    <main>
+
+        <aside>
+            <ul class="menu-items">
+                <li class="link"><a href="../get-started.html">Getting Started</a></li>
+                <li class="link"><a href="../Avatar/avatar.html">Avatar</a></li>
+                <li class="link"><a href="../Badge/badge.html">Badge</a></li>
+                <li class="link"><a href="../Alert/alert.html">Alert</a></li>
+                <li class="link"><a href="../Button/button.html">Button</a></li>
+                <li class="link"><a href="../Card/card.html">Card</a></li>
+                <li class="link"><a href="../Image/image.html">Image</a></li>
+                <li class="link"><a href="../Input/input.html">Input</a></li>
+                <li class="link"><a href="../List/list.html">List</a></li>
+                <li class="link"><a href="../Navbar/navbar.html">Navbar</a></li>
+                <li class="link"><a href="../Typography/typography.html">Typography</a></li>
+                <li class="link"><a href="../Form/form.html">Form</a></li>
+            </ul>
+        </aside>
+
+        <section class="main-section">
+
+            <section>
+                <h2 class="page-title">Form</h2>
+                <p class="section-para">
+                    Form is used in a website to gather some piece of information from a user and save it in the server for later use.
+                </p>
+            </section>
+    
+            <section>
+                <h2 class="section-heading">Login Form</h2>
+                <p class="section-para">
+                    Forms are mostly used in Login or Sign-Up of a user. Here is an example of a login form.
+                </p>
+                <div class="form-wrapper">
+                    <h2 class="form-heading">Login</h2>
+                    <form action="" method="post">
+                          <div class="form-email">
+                            <label for="email">Email address</label>
+                            <input id="email" type="email" placeholder="tanay@neog.camp" required />
+                          </div>
+                          <div class="form-password">
+                            <label for="password">Password</label>
+                            <input id="password" type="password" placeholder="********" required />
+                          </div>
+                          <div class="user-history">
+                              <input type="checkbox">
+                              <label for="">Remember me</label>
+                              <a href="#">Forgot your Password?</a>
+                          </div>
+                          <button type="submit" class="btn-submit">Submit</button>
+                    </form>
+                    <a href="#" class="new-account">Create New Account <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <div class="iframe-wrapper iframe-lg">
+                    <iframe class="iframe-code"
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522form-wrapper%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522form-heading%2522%253ELogin%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cform%2520action%253D%2522%2522%2520method%253D%2522post%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-email%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522email%2522%253EEmail%2520address%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522email%2522%2520type%253D%2522email%2522%2520placeholder%253D%2522tanay%2540neog.camp%2522%2520required%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-password%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522password%2522%2520type%253D%2522password%2522%2520placeholder%253D%2522********%2522%2520required%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522user-history%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%253ERemember%2520me%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253EForgot%2520your%2520Password%253F%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522submit%2522%2520class%253D%2522btn-submit%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fform%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522new-account%2522%253ECreate%2520New%2520Account%2520%253Ci%2520class%253D%2522fas%2520fa-chevron-right%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </section>
+
+        </section>
+    </main>
+    
+    <script src="../../js/header.js"></script>
+</body>
+
+</html>

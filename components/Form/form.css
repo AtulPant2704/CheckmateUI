@@ -1,0 +1,91 @@
+@import url("../get-started.css");
+
+.form-wrapper {
+  width: 50%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border: 1px solid var(--default-color);
+}
+
+.form-wrapper a {
+  text-decoration: none;
+}
+
+.form-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin: 1rem auto;
+}
+
+.form-email label,
+.form-password label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.form-email input,
+.form-password input {
+  width: 100%;
+  border: 1px solid var(--default-color);
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  outline: none;
+  font-size: 0.8rem;
+}
+
+.user-history {
+  font-size: 1rem;
+}
+
+.user-history a {
+  margin-left: 2rem;
+  color: var(--secondary-color);
+}
+
+.btn-submit {
+  margin: 1rem 0;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background: var(--secondary-color);
+  color: white;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.new-account {
+  color: black;
+  font-weight: 500;
+}
+.new-account i {
+  margin-left: 0.5rem;
+}
+
+.iframe-lg {
+  height: 77vh;
+}
+
+@media only screen and (max-width: 850px) {
+  .form-wrapper {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .form-wrapper {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .form-wrapper {
+    width: 90%;
+  }
+}
