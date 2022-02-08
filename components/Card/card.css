@@ -1,4 +1,5 @@
 @import url("../get-started.css");
+@import url("../Image/image.css");
 
 /* Default Card Styling Starts */
 
@@ -105,7 +106,6 @@
   -webkit-text-stroke: 1.2px black;
 }
 
-
 /* Card With Text Overlay Ends */
 
 /* Card With Shadow Styling Starts */
@@ -140,6 +140,132 @@
 
 /* Horizontal Card Styling Ends */
 
+/* Ecommerce Product Card Styling Starts */
+
+.ecommerce-btn {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.ecommerce-btn:hover {
+  background-color: var(--secondary-hover-color);
+}
+
+.product-card {
+  width: 15rem;
+}
+
+.product-card .img-container {
+  width: 100%;
+  position: relative;
+}
+
+.product-card .img-container i {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  font-size: 1.2rem;
+}
+
+.product-card .img-container .card-badge {
+  border-radius: 0;
+  font-size: 0.8rem;
+  background-color: var(--default-color);
+}
+
+.product-card .card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-card .card-title {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 550;
+}
+
+/* Ecommerce Product Card Styling Ends */
+
+/* Ecommerce Cart Card Styling Starts */
+
+.cart-card {
+  width: 30rem;
+  display: flex;
+}
+
+.cart-card .img-container {
+  flex: 1 1 8rem;
+}
+
+.cart-card .card-details {
+  margin: auto 1rem;
+  flex: 2 1 8rem;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 40%;
+  border: 1px solid var(--secondary-color);
+  padding: 0.3rem 1rem;
+  font-size: 1.2rem;
+}
+
+.quantity-controls .btn-control {
+  background-color: white;
+  border: none;
+  color: var(--secondary-color);
+}
+
+.cart-card .wishlist-btn {
+  margin-top: 1rem;
+  width: 50%;
+  padding: 0.5rem;
+}
+
+/* Ecommerce Cart Card Styling Ends */
+
+/* Ecommerce Bill Card Styling Starts */
+
+.bill-card {
+  width: 20rem;
+  margin: 2rem 0;
+}
+
+.bill-card .card-title {
+  border-bottom: 1px solid var(--row-color);
+}
+
+.bill-card .items-price {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem 0;
+}
+
+.bill-card .total-price-container {
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-top: 1px solid var(--row-color);
+  /* border-bottom: 1px solid var(--row-color); */
+}
+
+.order-btn {
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+}
+
+/* Ecommerce Bill Card Styling Ends */
+
 /* Iframe Styling Starts */
 
 .iframe-md {
@@ -148,6 +274,10 @@
 
 .iframe-sm {
   height: 45vh;
+}
+
+.iframe-x-lg {
+  height: 75vh;
 }
 
 /* Iframe Styling Ends */
@@ -176,6 +306,30 @@
 
   .card-horizontal {
     width: 100%;
+  }
+
+  .product-card {
+    width: 10rem;
+  }
+
+  .cart-card {
+    width: 100%;
+  }
+
+  .cart-card .img-container {
+    flex: 1 1 5rem;
+  }
+
+  .cart-card .card-details {
+    flex: 1 1 5rem;
+  }
+
+  .quantity-controls {
+    width: 70%;
+  }
+
+  .cart-card .wishlist-btn {
+    width: 90%;
   }
 }
 
