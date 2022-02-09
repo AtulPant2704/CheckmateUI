@@ -1,0 +1,15 @@
+@import url("../get-started.css");
+
+.slider-container {
+  margin: 2rem 0;
+  width: 50%;
+}
+
+.slider {
+  outline: none;
+  width: 100%;
+}
+
+.iframe-sm {
+  height: 20vh;
+}
