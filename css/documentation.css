@@ -4,6 +4,18 @@ main {
   overflow-y: hidden;
 }
 
+/* Background */
+
+.background-container {
+  position: fixed;
+  top: 65px;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: none;
+  z-index: 2;
+}
+
 /* Section Styling Starts */
 
 .main-section {
@@ -72,5 +84,10 @@ main {
 
   .iframe-code {
     width: 90%;
+  }
+
+  .open {
+    display: block;
+    cursor: pointer;
   }
 }
