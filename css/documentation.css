@@ -19,7 +19,7 @@ main {
 /* Section Styling Starts */
 
 .main-section {
-  margin: 4rem auto 5rem;
+  margin: 4rem auto;
 }
 
 .main-section section {
@@ -27,14 +27,18 @@ main {
   border-bottom: 1px solid var(--row-color);
 }
 
+.main-section section:last-child {
+  border-bottom: none;
+}
+
 .page-title {
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding: 0.5rem 0;
   color: var(--secondary-color);
 }
 
 .section-heading {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   padding: 0.5rem 0;
   color: var(--secondary-color);
 }
