@@ -2,15 +2,16 @@
 @import url("../css/utility.css");
 @import url("../css/header.css");
 @import url("../css/documentation.css");
+@import url("../css/footer.css");
 
 .iframe-wrapper {
-    margin-top: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .iframe-sm {
-    height: 20vh;
+  height: 20vh;
 }
 
 .iframe-lg {
-    height: 70vh;
+  height: 70vh;
 }
