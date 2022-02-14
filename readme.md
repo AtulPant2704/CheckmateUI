@@ -159,3 +159,9 @@ There is a single slider present in the library.
 <a href="https://www.linkedin.com/in/atulpant2704"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 
 ---
+
+## Desktop Version
+
+![checkmate ui gif](assets/checkmate-ui-desktop.gif)
+
+---
