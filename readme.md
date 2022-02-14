@@ -164,4 +164,8 @@ There is a single slider present in the library.
 
 ![checkmate ui gif](assets/checkmate-ui-desktop.gif)
 
+## Mobile Version
+
+![checkmate ui gif](assets/checkmate-ui-mobile.gif)
+
 ---
