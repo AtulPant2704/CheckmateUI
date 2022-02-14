@@ -2,8 +2,11 @@
 
 CheckMate is a light-weight CSS library with pre-defined classes that helps create beautiful, responsive layouts using human-friendly HTML.
 
----
+![Forks](https://img.shields.io/github/forks/AtulPant2704/CheckmateUI)
+![Stars](https://img.shields.io/github/stars/AtulPant2704/CheckmateUI)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4e609252-5780-4434-97a1-dfa72abb19eb/deploy-status)](https://app.netlify.com/sites/checkmate-ui/deploys)
 
+---
 ## Quick Start
 
 In order to use the components of CheckMate UI in your project, just copy paste the stylesheet `<link>` in the `<head>` tag of your html document, above all other stylesheets.
@@ -163,9 +166,8 @@ There is a single slider present in the library.
 ## Desktop Version
 
 ![checkmate ui gif](assets/checkmate-ui-desktop.gif)
-
 ## Mobile Version
 
-<img src="./assets/checkmate-ui-mobile-org.gif" style="width: 40%; height: auto; text-align: center"/>
+<img src="./assets/checkmate-ui-mobile-org.gif" style="width: 40%; height: auto;"/>
 
 ---
