@@ -169,6 +169,6 @@ There is a single slider present in the library.
 <!--
 ![checkmate ui gif](assets/checkmate-ui-mobile.gif) -->
 
-<img src="./assets/checkmate-ui-mobile.gif" style="width: 200px; height:100px"/>
+<img src="./assets/checkmate-ui-mobile.gif" style="width: 40%; height:auto"/>
 
 ---
