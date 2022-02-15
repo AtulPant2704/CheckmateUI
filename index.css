@@ -4,8 +4,7 @@
 body {
   width: 90%;
   margin: auto;
-  padding-top: 1.5rem;
-  max-height: 100vh;
+  height: 100%;
 }
 
 a {
@@ -15,12 +14,15 @@ a {
 /* Navbar Styling Starts */
 
 .header {
+  padding-top: 1.5rem;
   display: flex;
+  align-items: center;
   max-height: 10vh;
 }
 
 .title {
   color: var(--primary-color);
+  font-size: 1.3rem;
 }
 
 .docs-link {
@@ -45,9 +47,9 @@ a {
 
 .heading {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin: 1rem 0rem;
-  color: var(--primary-hover-color);
+  color: var(--secondary-color);
 }
 
 .description {
@@ -64,8 +66,8 @@ a {
 
 .btn {
   font-size: 1.2rem;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 1.5rem;
   margin: 0.5rem 1rem;
   border: none;
   cursor: pointer;
@@ -85,6 +87,7 @@ a {
   color: var(--primary-color);
   background: white;
   border: 1px solid var(--primary-color);
+  padding: 0.6rem 2rem;
 }
 
 .btn-github:hover {
