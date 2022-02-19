@@ -31,3 +31,21 @@
 .iframe-md {
   height: 40vh;
 }
+
+@media only screen and (max-width: 850px) {
+  .modal-container {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .modal-container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .modal-container {
+    width: 100%;
+  }
+}
