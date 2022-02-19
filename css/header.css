@@ -41,6 +41,7 @@ aside {
 }
 
 .menu-items {
+  overflow-y: auto;
   list-style: none;
   width: 20vw;
   height: 100%;
