@@ -50,22 +50,30 @@
             <section>
                 <h2 class="page-title">Grid</h2>
                 <p class="section-para">
-                    Slider is an input element which filters out the content based on the input given by the user.
+                    Grid helps in dividing a page in several parts and display components in that specific part. It makes dividing a page in several parts very easy.
                 </p>
             </section>
     
             <section>
                 <h2 class="section-heading">Two Column Grid</h2>
                 <p class="section-para">
-                    Range slider is used in online store in filter section to display items present in price range given by user.
+                    This is a two column grid display two items in separate columns.
                 </p>
-                <div class="slider-container">
-                    <input type="range" min="1" max="100" value="50" class="slider">
+                <div class="grid-container">
+                    <div class="two-col-grid-container">
+                        <div class="img-container">
+                            <img src="../../assets/chess-dark-brown-light-pieces.webp" alt="chess-board-pieces">
+                        </div>
+                        <div class="text-container">
+                            <h1 class="grid-heading">Chess Board Pieces</h1>
+                            <h2 class="grid-subheading">Available at huge discount</h2>
+                            <button class="btn btn-outline-primary">Explore</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="iframe-wrapper iframe-sm">
                     <iframe class="iframe-code"
-                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522range%2522%2520min%253D%25221%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520class%253D%2522slider%2522%253E"
-                            sandbox="allow-scripts allow-same-origin">
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522two-col-grid-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fchess-dark-brown-light-pieces.webp%2522%2520alt%253D%2522chess-board-pieces%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522grid-heading%2522%253EChess%2520Board%2520Pieces%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522grid-subheading%2522%253EAvailable%2520at%2520huge%2520discount%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2522%253EExplore%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
             </section>
@@ -73,14 +81,51 @@
             <section>
                 <h2 class="section-heading">Three Column Grid</h2>
                 <p class="section-para">
-                    Range slider is used in online store in filter section to display items present in price range given by user.
+                    This is a three column grid display three items in with equal width.
                 </p>
-                <div class="slider-container">
-                    <input type="range" min="1" max="100" value="50" class="slider">
+                <div class="grid-container">
+                    <div class="three-col-grid-container">
+                        <div class="product-card">
+                            <div class="img-container">
+                                <img src="../../assets/chess-dark-brown-light-pieces.webp" alt="chess-dark-brown-light-pieces" class="img-responsive">
+                                <i class="far fa-heart"></i>
+                                <span class="card-badge">Sold Out</span>
+                            </div>
+                            <div class="card-details">
+                                <p class="card-title">The Honour of Stauton Series Chess Pieces</p>
+                                <h3 class="card-price">₹ 5000</h3>
+                                <button class="cart-btn ecommerce-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="img-container">
+                                <img src="../../assets/chess-dark-brown-light-pieces.webp" alt="chess-dark-brown-light-pieces" class="img-responsive">
+                                <i class="far fa-heart"></i>
+                                <span class="card-badge">Sold Out</span>
+                            </div>
+                            <div class="card-details">
+                                <p class="card-title">The Honour of Stauton Series Chess Pieces</p>
+                                <h3 class="card-price">₹ 5000</h3>
+                                <button class="cart-btn ecommerce-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="img-container">
+                                <img src="../../assets/chess-dark-brown-light-pieces.webp" alt="chess-dark-brown-light-pieces" class="img-responsive">
+                                <i class="far fa-heart"></i>
+                                <span class="card-badge">Sold Out</span>
+                            </div>
+                            <div class="card-details">
+                                <p class="card-title">The Honour of Stauton Series Chess Pieces</p>
+                                <h3 class="card-price">₹ 5000</h3>
+                                <button class="cart-btn ecommerce-btn">Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="iframe-wrapper iframe-sm">
                     <iframe class="iframe-code"
-                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522range%2522%2520min%253D%25221%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520class%253D%2522slider%2522%253E"
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522three-col-grid-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fchess-dark-brown-light-pieces.webp%2522%2520alt%253D%2522chess-dark-brown-light-pieces%2522%2520class%253D%2522img-responsive%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253ESold%2520Out%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-title%2522%253EThe%2520Honour%2520of%2520Stauton%2520Series%2520Chess%2520Pieces%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-price%2522%253E%25E2%2582%25B9%25205000%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart-btn%2520ecommerce-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fchess-dark-brown-light-pieces.webp%2522%2520alt%253D%2522chess-dark-brown-light-pieces%2522%2520class%253D%2522img-responsive%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253ESold%2520Out%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-title%2522%253EThe%2520Honour%2520of%2520Stauton%2520Series%2520Chess%2520Pieces%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-price%2522%253E%25E2%2582%25B9%25205000%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart-btn%2520ecommerce-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fchess-dark-brown-light-pieces.webp%2522%2520alt%253D%2522chess-dark-brown-light-pieces%2522%2520class%253D%2522img-responsive%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253ESold%2520Out%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-title%2522%253EThe%2520Honour%2520of%2520Stauton%2520Series%2520Chess%2520Pieces%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-price%2522%253E%25E2%2582%25B9%25205000%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart-btn%2520ecommerce-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
                             sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
