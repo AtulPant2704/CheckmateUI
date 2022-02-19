@@ -1,7 +1,7 @@
 main {
+  overflow-y: visible;
   width: 70vw;
   margin: 0 auto;
-  overflow-y: hidden;
 }
 
 /* Background */
