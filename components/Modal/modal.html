@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="https://kit.fontawesome.com/829cb68a23.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="../../assets/favicon-32x32.webp" />
-    <link rel="stylesheet" href="./image.css">
-    <title>Image</title>
+    <link rel="stylesheet" href="./modal.css">
+    <title>Modal</title>
 </head>
 
 <body>
@@ -47,45 +46,29 @@
         <section class="main-section">
 
             <section>
-                <h2 class="page-title">Image</h2>
+                <h2 class="page-title">Modal</h2>
                 <p class="section-para">
-                    An image is graphical representation of something to make a website much more appealing. Images are generally responsive which expands with the width of the container they are in.
+                    Modal is a popup that is displayed on a screen over entire web page to display important piece of information or to ask for a certain piece of action from a user.
                 </p>
             </section>
-    
+
             <section>
-                <h2 class="section-heading">Responsive Image</h2>
+                <h2 class="section-heading">Basic Modal</h2>
                 <p class="section-para">
-                    Make any image responsive by adding 
-                    <span class="colored-text">img-responsive</span>
-                    class to it and fit it inside container of any width and it will expand by its container's width.
+                    This is a simple modal displaying heading and sub-heading and ask among two choices from a user.
                 </p>
-                <div class="img-responsive-container img-container">
-                    <img src="../../assets/image-res.webp" alt="image-responsive" class="img-responsive">
+                <div class="modal-container">
+                    <h3 class="modal-heading">Modal Heading</h3>
+                    <p class="modal-subheading">Modal subheading displaying certain piece of information.</p>
+                    <div class="modal-btns">
+                        <button class="btn btn-solid-primary">Action 1</button>
+                        <button class="btn btn-outline-primary">Action 2</button>
+                    </div>
                 </div>
-                <div class="iframe-wrapper iframe-sm">
+                <div class="iframe-wrapper iframe-md">
                     <iframe class="iframe-code"
-                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522..%252Fimages%252Fimage-res.jpg%2522%2520alt%253D%2522image-responsive%2522%2520class%253D%2522img-responsive%2522%253E"
-                            sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-                </div>
-            </section>
-    
-            <section>
-                <h2 class="section-heading">Circle Image</h2>
-                <p class="section-para">
-                    Circle images are complete rounded images as well as responsive, you can use them by adding 
-                    <span class="colored-text">img-responsive</span> and 
-                    <span class="colored-text">img-circle</span>
-                    class to that img tag.
-                </p>
-                <div class="img-circle-container img-container">
-                    <img src="../../assets/avatar-1.webp" alt="image-round" class="img-responsive img-circle">
-                </div>
-                <div class="iframe-wrapper iframe-sm">
-                    <iframe class="iframe-code"
-                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522..%252Fimages%252Favatar-1.jpg%2522%2520alt%253D%2522image-round%2522%2520class%253D%2522img-responsive%2520img-circle%2522%253E"
-                            sandbox="allow-scripts allow-same-origin">
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522modal-heading%2522%253EModal%2520Heading%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522modal-subheading%2522%253EModal%2520subheading%2520displaying%2520certain%2520piece%2520of%2520information.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-solid-primary%2522%253EAction%25201%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2522%253EAction%25202%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                        sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
             </section>
@@ -109,6 +92,7 @@
     </footer>
 
     <script src="../../js/header.js"></script>
+    
 </body>
 
 </html>
