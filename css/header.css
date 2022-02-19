@@ -41,12 +41,17 @@ aside {
 }
 
 .menu-items {
+  overflow-y: scroll;
   list-style: none;
   width: 20vw;
   height: 100%;
   background-color: white;
   border-left: 1px solid var(--row-color);
   padding-top: 2rem;
+}
+
+.menu-items::-webkit-scrollbar {
+  width: 0;
 }
 
 .nav-open {
