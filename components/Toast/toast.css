@@ -13,12 +13,12 @@
   display: block;
   position: absolute;
   right: 0%;
-  bottom: 5%;
+  bottom: 1%;
   width: fit-content;
   background-color: var(--secondary-color);
   color: white;
   font-size: 1rem;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem;
   border-radius: 1rem;
   display: flex;
   align-items: center;
@@ -29,6 +29,15 @@
   border: none;
   color: var(--secondary-color);
   background-color: white;
-  padding: 2px 4px;
+  padding: 5px 10px;
   border-radius: 5px;
+}
+
+.toast .toast-cancel {
+  background-color: var(--danger-color);
+  color: white;
+}
+
+.iframe-lg {
+  height: 70vh;
 }
