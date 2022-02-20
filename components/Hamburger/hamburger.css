@@ -1,1 +1,98 @@
 @import url("../get-started.css");
+@import url("../Navbar/navbar.css");
+
+/* Display Container Styling  */
+.display-container {
+  position: relative;
+  margin: 2rem 0;
+  border: 1px solid var(--secondary-color);
+}
+
+.display-container .menu-bar,
+.menu-bar-close {
+  cursor: pointer;
+}
+
+/* Navbar Styling  */
+.nav-header {
+  margin-top: 0;
+  padding: 1rem 1rem 0 0;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menu-bar {
+  padding-left: 1rem;
+  display: block;
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.search {
+  padding-left: 1rem;
+  order: 1;
+  width: 100%;
+  border: none;
+}
+
+.input-search {
+  margin-left: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.btn-login {
+  display: none;
+}
+
+/* Hamburger Menu Styling  */
+.hamburger-menu {
+  position: absolute;
+  width: 15rem;
+  height: 100%;
+  top: 0;
+  background-color: white;
+  right: 100%;
+  display: none;
+  transition: transform 1s ease;
+  z-index: 2;
+}
+
+.hamburger-menu-open {
+  display: block;
+  transform: translateX(100%);
+}
+
+.hamburger-menu .profile-header {
+  padding: 1.5rem;
+  background-color: var(--secondary-color);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.display-container .content {
+  padding-left: 1rem;
+}
+
+.hamburger-menu .page-routes {
+  padding: 0.5rem 0 0 1.5rem;
+}
+
+.hamburger-menu .page-routes li {
+  padding: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.hamburger-menu .page-routes a {
+  color: var(--secondary-color);
+}
+
+/* Iframe Styling */
+.iframe-md {
+  height: 58vh;
+}

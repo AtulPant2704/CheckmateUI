@@ -53,21 +53,65 @@
             <section>
                 <h2 class="page-title">Hamburger</h2>
                 <p class="section-para">
-                    Slider is an input element which filters out the content based on the input given by the user.
+                    Hamburger is present in the navbar and contains a list of items or routes to different pages which can be opened or closed on click of a button.
                 </p>
             </section>
     
             <section>
                 <h2 class="section-heading">Simple Hamburger</h2>
                 <p class="section-para">
-                    Range slider is used in online store in filter section to display items present in price range given by user.
+                    This is a simple hamburger placed on top-left of screen and contains routes to different pages.(Click on hamburger to view menu items.)
                 </p>
-                <div class="slider-container">
-                    <input type="range" min="1" max="100" value="50" class="slider">
+                <div class="display-container">
+                    <div class="nav-header">
+                        <div class="title">
+                            <i class="fas fa-bars menu-bar"></i>
+                            <h2 class="nav-title">My Website</h2>
+                        </div>
+                        <div class="search">
+                            <span class="btn-search"><i class="fas fa-search"></i></span>
+                            <input type="text" placeholder="Type to Search" class="input-search">
+                        </div>
+                        <div class="user-controls">
+                            <button class="btn-login">Login</button>
+                            <div class="btn-check">
+                                <i class="far fa-heart"></i>
+                                <span class="count">0</span>
+                            </div>
+                            <div class="btn-check">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="count">0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hamburger-menu">
+                        <div class="profile-header">
+                            <i class="fas fa-user"></i>
+                            <i class="fas fa-times menu-bar-close"></i>
+                        </div>
+                        <div class="page-routes">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Shop Now</a></li>
+                                <li><a href="#">Orders</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <p class="content-para">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia nobis ea in fugiat facilis ducimus a dolor nulla quae soluta est vitae inventore praesentium numquam, magni nisi accusamus minima. Voluptates dolor, magnam, voluptatibus dicta aliquid aut minus quas minima debitis voluptatum consequuntur. Quam deserunt ipsa necessitatibus minus, aperiam sunt nobis nihil dolor autem facilis porro maxime excepturi ratione praesentium provident perferendis sint sed dolores libero adipisci. Reprehenderit est molestiae dolore.
+                        </p>
+                    </div>
                 </div>
-                <div class="iframe-wrapper iframe-sm">
+                <div class="iframe-wrapper iframe-lg">
                     <iframe class="iframe-code"
-                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522range%2522%2520min%253D%25221%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520class%253D%2522slider%2522%253E"
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522nav-header%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bars%2520menu-bar%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522nav-title%2522%253EMy%2520Website%253C%252Fh2%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522search%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522btn-search%2522%253E%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Type%2520to%2520Search%2522%2520class%253D%2522input-search%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522user-controls%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-login%2522%253ELogin%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-check%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522count%2522%253E0%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-check%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522count%2522%253E0%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522hamburger-menu%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522profile-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-user%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520menu-bar-close%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522page-routes%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253EHome%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253EShop%2520Now%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%253Ca%2520href%253D%2522%2523%2522%253EOrders%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="iframe-wrapper iframe-md">
+                    <iframe class="iframe-code"
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252FJavascript%250Aconst%2520menuBarBtn%2520%253D%2520document.querySelector%28%2522.menu-bar%2522%29%253B%250Aconst%2520hamburgerMenu%2520%253D%2520document.querySelector%28%2522.hamburger-menu%2522%29%253B%250Aconst%2520menuBarClose%2520%253D%2520document.querySelector%28%2522.menu-bar-close%2522%29%253B%250A%25C2%25A0%250AmenuBarBtn.addEventListener%28%2522click%2522%252CopenMenuBar%29%253B%250AmenuBarClose.addEventListener%28%2522click%2522%252CcloseMenuBar%29%253B%250AhamburgerBackground.addEventListener%28%2522click%2522%252CcloseMenuBar%29%253B%250A%25C2%25A0%250Afunction%2520openMenuBar%28%29%257B%250A%2520%2520%2520hamburgerMenu.classList.add%28%2522hamburger-menu-open%2522%29%253B%250A%257D%250A%25C2%25A0%250Afunction%2520closeMenuBar%28%29%257B%250A%2520%2520%2520hamburgerMenu.classList.remove%28%2522hamburger-menu-open%2522%29%253B%250A%257D"
                             sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
@@ -92,6 +136,7 @@
     </footer>
 
     <script src="../../js/header.js"></script>
+    <script src="./hamburger.js"></script>
 </body>
 
 </html>
