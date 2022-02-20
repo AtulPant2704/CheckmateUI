@@ -192,6 +192,14 @@ There is a single toast present in the library.
 
 - Simple Toast
 
+## [Hamburger](https://checkmate-ui.netlify.app/components/hamburger/hamburger)
+
+Hamburger contains list items which can be opened and closed on click of a button. It is displayed on navbar and contains routes to different pages.
+
+There is a single hamburger present in the library.
+
+- Simple Hamburger
+
 ---
 
 ## Desktop Version
