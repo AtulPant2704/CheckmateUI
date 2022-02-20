@@ -1,15 +1,19 @@
 @import url("../get-started.css");
+@import url("../Button/button.css");
 
-/* Positioning of Elements Starts */
+.btn-navbar {
+  margin: 1rem 0;
+}
+
+/* Positioning of Navbar Starts */
 .nav-header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1rem 2rem;
   width: 100%;
   box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, 0.1), 0px 5px 5px 0 rgba(0, 0, 0, 0.1);
-  margin: 2rem 0;
 }
 
 .menu-bar {
@@ -22,7 +26,7 @@
   gap: 2rem;
 }
 
-/* Positioning of Elements Ends */
+/* Positioning of Navbar Ends */
 
 /* Title and Search Styling Starts */
 .nav-title {
