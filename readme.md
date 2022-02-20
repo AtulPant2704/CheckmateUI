@@ -37,6 +37,7 @@ In order to use the components of CheckMate UI in your project, just copy paste 
 - [Grid](#grid)
 - [Rating](#rating)
 - [Toast](#toast)
+- [Hamburger](#hamburger)
 
 ---
 
