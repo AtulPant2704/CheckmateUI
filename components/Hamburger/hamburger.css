@@ -4,7 +4,6 @@
 /* Display Container Styling  */
 .display-container {
   position: relative;
-  margin: 2rem 0;
   border: 1px solid var(--secondary-color);
 }
 
@@ -25,13 +24,11 @@
   top: 0;
   background-color: white;
   right: 100%;
-  display: none;
   transition: transform 1s ease;
   z-index: 2;
 }
 
 .hamburger-menu-open {
-  display: block;
   transform: translateX(100%);
 }
 
@@ -45,7 +42,7 @@
 }
 
 .display-container .content {
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 
 .hamburger-menu .page-routes {

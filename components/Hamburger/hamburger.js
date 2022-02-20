@@ -4,7 +4,6 @@ const menuBarClose = document.querySelector(".menu-bar-close");
 
 menuBarBtn.addEventListener("click",openMenuBar);
 menuBarClose.addEventListener("click",closeMenuBar);
-hamburgerBackground.addEventListener("click",closeMenuBar);
 
 function openMenuBar(){
    hamburgerMenu.classList.add("hamburger-menu-open");
