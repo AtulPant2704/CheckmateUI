@@ -1,0 +1,14 @@
+@import url("../get-started.css");
+
+.rating-container {
+  margin: 1.5rem 0;
+}
+
+.rating-container .fa-star {
+  font-size: 1.5rem;
+  color: var(--warning-color);
+}
+
+.iframe-sm {
+  height: 31vh;
+}

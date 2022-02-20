@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="https://kit.fontawesome.com/829cb68a23.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="../../assets/favicon-32x32.webp" />
-    <link rel="stylesheet" href="./slider.css">
-    <title>Slider</title>
+    <link rel="stylesheet" href="./toast.css">
+    <title>Toast</title>
 </head>
 
 <body>
@@ -50,23 +50,32 @@
         <section class="main-section">
 
             <section>
-                <h2 class="page-title">Slider</h2>
+                <h2 class="page-title">Toast</h2>
                 <p class="section-para">
-                    Slider is an input element which filters out the content based on the input given by the user.
+                    Toast is used to display a notification to the user regarding the action he took.
                 </p>
             </section>
     
             <section>
-                <h2 class="section-heading">Range Slider</h2>
+                <h2 class="section-heading">Simple Toast</h2>
                 <p class="section-para">
-                    Range slider is used in online store in filter section to display items present in price range given by user.
+                    This is a simple toast displaying an info on a button click.
                 </p>
-                <div class="slider-container">
-                    <input type="range" min="1" max="100" value="50" class="slider">
+                <button class="btn btn-solid-primary toast-btn">Show Toast</button>
+                <div class="toast">
+                    <p class="toast-msg">Your item has been added to cart.</p>
+                    <button class="toast-undo">UNDO</button>
+                    <button class="toast-cancel"><i class="fas fa-times"></i></button>
                 </div>
-                <div class="iframe-wrapper iframe-sm">
+                <div class="iframe-wrapper iframe-md">
                     <iframe class="iframe-code"
-                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522range%2522%2520min%253D%25221%2522%2520max%253D%2522100%2522%2520value%253D%252250%2522%2520class%253D%2522slider%2522%253E"
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-solid-primary%2520toast-btn%2522%253EShow%2520Toast%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522toast%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522toast-msg%2522%253EYour%2520photo%2520has%2520been%2520archived.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-undo%2522%253EUNDO%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522toast-cancel%2522%253EX%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="iframe-wrapper iframe-lg">
+                    <iframe class="iframe-code"
+                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520Javascript%250Aconst%2520toastBtn%2520%253D%2520document.querySelector%28%2522.toast-btn%2522%29%253B%250Aconst%2520toast%2520%253D%2520document.querySelector%28%2522.toast%2522%29%253B%250Aconst%2520toastCancel%2520%253D%2520document.querySelector%28%2522.toast-cancel%2522%29%253B%250Aconst%2520toastUndo%2520%253D%2520document.querySelector%28%2522.toast-undo%2522%29%253B%250A%25C2%25A0%250AtoastBtn.addEventListener%28%2522click%2522%252CshowToast%29%253B%250AtoastCancel.addEventListener%28%2522click%2522%252ChideToast%29%253B%250AtoastUndo.addEventListener%28%2522click%2522%252ChideToast%29%253B%250A%25C2%25A0%250Afunction%2520showToast%28%29%257B%250A%2520%2520%2520%2520console.log%28%2522show%2522%29%253B%250A%2520%2520%2520%2520toast.classList.add%28%2522show-toast%2522%29%253B%250A%2520%2520%2520%2520setTimeout%28%28%29%2520%253D%253E%2520%257Btoast.classList.remove%28%2522show-toast%2522%29%257D%252C%25203000%29%250A%257D%250A%25C2%25A0%250Afunction%2520hideToast%28%29%257B%250A%2520%2520%2520%2520console.log%28%2522hide%2522%29%253B%250A%2520%2520%2520%2520toast.classList.remove%28%2522show-toast%2522%29%253B%250A%257D"
                             sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
@@ -75,7 +84,7 @@
         </section>
 
     </main>
-
+    
     <footer class="footer">
 
         <div class="footer-container">
@@ -91,6 +100,7 @@
     </footer>
 
     <script src="../../js/header.js"></script>
+    <script src="./toast.js"></script>
 </body>
 
 </html>

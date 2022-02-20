@@ -7,6 +7,7 @@ CheckMate is a light-weight CSS library with pre-defined classes that helps crea
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4e609252-5780-4434-97a1-dfa72abb19eb/deploy-status)](https://app.netlify.com/sites/checkmate-ui/deploys)
 
 ---
+
 ## Quick Start
 
 In order to use the components of CheckMate UI in your project, just copy paste the stylesheet `<link>` in the `<head>` tag of your html document, above all other stylesheets.
@@ -32,6 +33,10 @@ In order to use the components of CheckMate UI in your project, just copy paste 
 - [Typography](#typography)
 - [Form](#form)
 - [Slider](#slider)
+- [Modal](#modal)
+- [Grid](#grid)
+- [Rating](#rating)
+- [Toast](#toast)
 
 ---
 
@@ -154,20 +159,52 @@ There is a single slider present in the library.
 
 - Range Slider
 
----
+## [Modal](https://checkmate-ui.netlify.app/components/modal/modal)
 
-## 👨‍💻 Connect with me
+Modal is used to ask an action among choices from a user.
 
-<a href="https://twitter.com/AtulPant2704"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/atulpant2704"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+There is a single modal present in the library.
+
+- Simple Modal
+
+## [Grid](https://checkmate-ui.netlify.app/components/grid/grid)
+
+Grid is used to divide a web page into sections.
+
+There are two items and three items grid present in the library.
+
+- Two Items Grid
+- Three Items Grid
+
+## [Rating](https://checkmate-ui.netlify.app/components/rating/rating)
+
+Rating is used to ask a rating or a service or product from a user.
+
+There is a single rating present in the library.
+
+- Simple Rating
+
+## [Toast](https://checkmate-ui.netlify.app/components/toast/toast)
+
+Toast is used to display a notification to the user because of the action he took.
+
+There is a single toast present in the library.
+
+- Simple Toast
 
 ---
 
 ## Desktop Version
 
 ![checkmate ui gif](assets/checkmate-ui-desktop.gif)
+
 ## Mobile Version
 
 <img src="./assets/checkmate-ui-mobile-org.gif" style="width: 40%; height: auto;"/>
 
 ---
+
+## 👨‍💻 Connect with me
+
+<a href="https://twitter.com/AtulPant2704"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/atulpant2704"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
