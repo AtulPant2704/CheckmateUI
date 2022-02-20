@@ -1,36 +1,36 @@
 @import url("../get-started.css");
 
 .container {
-    margin: 1.5rem 0;
-    padding: 0 1rem;
-    border: 2px solid var(--border-light-color);
-    border-radius: 5px;
+  margin: 1.5rem 0;
+  padding: 0 1rem;
+  border: 2px solid var(--border-light-color);
+  border-radius: 5px;
 }
 
 /* Header Styling Starts */
 
 .h1 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .h2 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .h4 {
-    font-size: 1.75rem;
+  font-size: 1.75rem;
 }
 
 .h5 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .h6 {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 /* Header Styling Ends */
@@ -38,19 +38,19 @@
 /* Paragraph Styling Starts */
 
 .p .body-cp-rg {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .body-cp-lg {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .body-cp-md {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .body-cp-sm {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 /* Paragraph Styling Ends */
@@ -58,15 +58,15 @@
 /* Alignment Styling Starts */
 
 .align-left {
-    text-align: left;
+  text-align: left;
 }
 
 .align-center {
-    text-align: center;
+  text-align: center;
 }
 
 .align-right {
-    text-align: right;
+  text-align: right;
 }
 
 /* Alignment Styling Ends */
@@ -74,36 +74,19 @@
 /* Extra Typography Styling Starts */
 
 .extra-styles {
-    margin: 0 1rem;
+  margin: 0 1rem;
 }
 
 .gray-text {
-    color: gray;
+  color: gray;
 }
 
 .text-strike {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
-
 .text-underline {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Extra Typography Styling Ends */
-
-/* Iframe Styling Starts */
-
-.iframe-lg {
-    height: 28vh;
-}
-
-.iframe-md {
-    height: 22vh;
-}
-
-.iframe-sm {
-    height: 20vh;
-}
-
-/* Iframe Styling Ends */

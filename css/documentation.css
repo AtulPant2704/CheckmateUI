@@ -54,19 +54,40 @@ main {
   font-weight: 600;
 }
 
-.iframe-wrapper {
-  width: 100%;
-  height: 50vh;
-  background-color: #151718;
-}
-
-.iframe-code {
-  border: none;
-  width: 70%;
-  height: 100%;
-}
-
 /* Section Styling Ends */
+
+/* Highlight JS Styling Starts */
+
+.code-wrapper {
+  width: 100%;
+  height: fit-content;
+}
+
+.code {
+  font-size: 1rem;
+}
+
+.code-embed {
+  position: relative;
+  margin: 0;
+}
+
+.code-embed > code.tag,
+.code-embed > code.html {
+  border-radius: 0.5rem;
+  padding: 0 1.5rem 0 1rem;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+pre code.hljs {
+  max-width: 100%;
+  padding: 0;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+
+/* Highlight JS Styling Ends */
 
 /* Responsive Styling Starts */
 
@@ -74,19 +95,11 @@ main {
   main {
     width: 80vw;
   }
-
-  .iframe-code {
-    width: 70%;
-  }
 }
 
 @media only screen and (max-width: 750px) {
   main {
     width: 90vw;
-  }
-
-  .iframe-code {
-    width: 90%;
   }
 
   .open {

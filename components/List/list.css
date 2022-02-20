@@ -1,42 +1,37 @@
 @import url("../get-started.css");
 
 .list {
-    list-style: none;
-    padding: 0.5rem 2rem;
-    width: 15rem;
-    border: 1px solid var(--default-color);
-    margin: 2rem 0;
+  list-style: none;
+  padding: 0.5rem 2rem;
+  width: 15rem;
+  border: 1px solid var(--default-color);
+  margin: 2rem 0;
 }
 
 .list-title {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
 }
 
 .list li {
-    padding: 1rem 0rem;
-    cursor: pointer;
+  padding: 1rem 0rem;
+  cursor: pointer;
 }
 
 .list-stacked {
-    background-color: white;
-    padding: 1.5rem 1rem;
+  background-color: white;
+  padding: 1.5rem 1rem;
 }
 
 .list-stacked li {
-    margin: 0.5rem 0rem;
-    background-color: var(--secondary-color);
-    color: white;
-    padding: 1rem 2rem;
-    border-radius: 0.5rem;
+  margin: 0.5rem 0rem;
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
 }
 
 .list-stacked li:hover {
-    background-color: var(--secondary-hover-color);
-}
-
-.iframe-md {
-    margin-top: 3rem;
-    height: 32vh;
+  background-color: var(--secondary-hover-color);
 }

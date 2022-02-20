@@ -60,8 +60,3 @@
 .hamburger-menu .page-routes a {
   color: var(--secondary-color);
 }
-
-/* Iframe Styling */
-.iframe-md {
-  height: 58vh;
-}

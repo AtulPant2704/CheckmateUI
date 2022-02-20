@@ -72,10 +72,6 @@
   margin-left: 0.5rem;
 }
 
-.iframe-lg {
-  height: 77vh;
-}
-
 @media only screen and (max-width: 1100px) {
   .form-wrapper {
     width: 50%;

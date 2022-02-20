@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../highlight/styles/atom-one-dark-reasonable.min.css">
     <script defer src="https://kit.fontawesome.com/829cb68a23.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="../../assets/favicon-32x32.webp" />
     <link rel="stylesheet" href="./form.css">
@@ -82,11 +83,31 @@
                     </form>
                     <a href="#" class="new-account">Create New Account <i class="fas fa-chevron-right"></i></a>
                 </div>
-                <div class="iframe-wrapper iframe-lg">
-                    <iframe class="iframe-code"
-                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522form-wrapper%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522form-heading%2522%253ELogin%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cform%2520action%253D%2522%2522%2520method%253D%2522post%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-email%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522email%2522%253EEmail%2520address%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522email%2522%2520type%253D%2522email%2522%2520placeholder%253D%2522tanay%2540neog.camp%2522%2520required%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522form-password%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522password%2522%2520type%253D%2522password%2522%2520placeholder%253D%2522********%2522%2520required%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522user-history%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%253ERemember%2520me%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253EForgot%2520your%2520Password%253F%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522submit%2522%2520class%253D%2522btn-submit%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fform%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522new-account%2522%253ECreate%2520New%2520Account%2520%253Ci%2520class%253D%2522fas%2520fa-chevron-right%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%253C%252Fdiv%253E"
-                            sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="code-wrapper">
+                    <pre class="code-embed">
+                        <code class="code tag">
+&lt;div class=&quot;form-wrapper&quot;&gt;
+    &lt;h2 class=&quot;form-heading&quot;&gt;Login&lt;/h2&gt;
+    &lt;form action=&quot;&quot; method=&quot;post&quot;&gt;
+        &lt;div class=&quot;form-email&quot;&gt;
+            &lt;label for=&quot;email&quot;&gt;Email address&lt;/label&gt;
+            &lt;input id=&quot;email&quot; type=&quot;email&quot; placeholder=&quot;tanay@neog.camp&quot; required /&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;form-password&quot;&gt;
+            &lt;label for=&quot;password&quot;&gt;Password&lt;/label&gt;
+            &lt;input id=&quot;password&quot; type=&quot;password&quot; placeholder=&quot;********&quot; required /&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;user-history&quot;&gt;
+            &lt;input type=&quot;checkbox&quot;&gt;
+            &lt;label for=&quot;&quot;&gt;Remember me&lt;/label&gt;
+            &lt;a href=&quot;#&quot;&gt;Forgot your Password?&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;button type=&quot;submit&quot; class=&quot;btn-submit&quot;&gt;Submit&lt;/button&gt;
+    &lt;/form&gt;
+    &lt;a href=&quot;#&quot; class=&quot;new-account&quot;&gt;Create New Account &lt;i class=&quot;fas fa-chevron-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;
+                        </code>
+                    </pre>
                 </div>
             </section>
 
@@ -107,7 +128,9 @@
         </div>
 
     </footer>
-    
+
+    <script src="../../highlight/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
     <script src="../../js/header.js"></script>
 </body>
 

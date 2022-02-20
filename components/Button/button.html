@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/829cb68a23.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../highlight/styles/atom-one-dark-reasonable.min.css">
+    <script defer src="https://kit.fontawesome.com/829cb68a23.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="../../assets/favicon-32x32.webp" />
     <link rel="stylesheet" href="./button.css">
     <title>Button</title>
@@ -65,11 +66,14 @@
                     <button class="btn btn-outline-primary">Outline</button>
                     <button class="btn btn-text-primary">Text</button>
                 </div>
-                <div class="iframe-wrapper iframe-sm">
-                    <iframe class="iframe-code"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-solid-primary%2522%253ESolid%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2522%253EOutline%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-text-primary%2522%253EText%253C%252Fbutton%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="code-wrapper">
+                    <pre class="code-embed">
+                        <code class="code tag">
+&lt;button class=&quot;btn btn-solid-primary&quot;&gt;Solid&lt;/button&gt;
+&lt;button class=&quot;btn btn-outline-primary&quot;&gt;Outline&lt;/button&gt;
+&lt;button class=&quot;btn btn-text-primary&quot;&gt;Text&lt;/button&gt;
+                        </code>
+                    </pre>
                 </div>
             </section>
     
@@ -78,11 +82,12 @@
                 <p class="section-para">If you want to have a link with more emphasis then you can have a button with a link tag.
                 </p>
                 <button class="btn btn-link"><a href="#">Link</a></button>
-                <div class="iframe-wrapper iframe-vs">
-                    <iframe class="iframe-code"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253E%253Ca%2520href%253D%2522%2523%2522%253ELink%253C%252Fa%253E%253C%252Fbutton%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="code-wrapper">
+                    <pre class="code-embed">
+                        <code class="code tag">
+&lt;button class=&quot;btn btn-link&quot;&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/button&gt;
+                        </code>
+                    </pre>
                 </div>
             </section>
     
@@ -99,10 +104,17 @@
                     <button class="btn btn-text-icon btn-text-icon-secondary"><i class="fas fa-save"></i>Save</button>
                 </div>
                 <div class="iframe-wrapper iframe-lg">
-                    <iframe class="iframe-code"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-text-icon%2520btn-text-icon-primary%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%2520Add%2520to%250A%2520%2520%2520%2520Cart%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-text-icon%2520btn-text-icon-secondary%2522%253E%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520Send%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-text-icon%2520btn-text-icon-primary%2522%253E%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2522%253E%253C%252Fi%253E%2520Delete%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-text-icon%2520btn-text-icon-secondary%2522%253E%253Ci%2520class%253D%2522fas%2520fa-save%2522%253E%253C%252Fi%253ESave%253C%252Fbutton%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="code-wrapper">
+                    <pre class="code-embed">
+                        <code class="code tag">
+&lt;button class=&quot;btn btn-text-icon btn-text-icon-primary&quot;&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt; Add to
+    Cart&lt;/button&gt;
+&lt;button class=&quot;btn btn-text-icon btn-text-icon-secondary&quot;&gt;&lt;i class=&quot;fas fa-paper-plane&quot;&gt;&lt;/i&gt;
+    Send&lt;/button&gt;
+&lt;button class=&quot;btn btn-text-icon btn-text-icon-primary&quot;&gt;&lt;i class=&quot;fas fa-trash-alt&quot;&gt;&lt;/i&gt; Delete&lt;/button&gt;
+&lt;button class=&quot;btn btn-text-icon btn-text-icon-secondary&quot;&gt;&lt;i class=&quot;fas fa-save&quot;&gt;&lt;/i&gt;Save&lt;/button&gt;
+                        </code>
+                    </pre>
                 </div>
             </section>
     
@@ -115,11 +127,14 @@
                     <button class="btn btn-float btn-float-secondary"><i class="fas fa-arrow-up"></i></button>
                     <button class="btn btn-float btn-float-primary"><i class="fas fa-trash-alt"></i></button>
                 </div>
-                <div class="iframe-wrapper iframe-md">
-                    <iframe class="iframe-code"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-float%2520btn-float-primary%2522%253E%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-float%2520btn-float-secondary%2522%253E%253Ci%2520class%253D%2522fas%2520fa-arrow-up%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-float%2520btn-float-primary%2522%253E%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="code-wrapper">
+                    <pre class="code-embed">
+                        <code class="code tag">
+&lt;button class=&quot;btn btn-float btn-float-primary&quot;&gt;&lt;i class=&quot;fas fa-plus&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+&lt;button class=&quot;btn btn-float btn-float-secondary&quot;&gt;&lt;i class=&quot;fas fa-arrow-up&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+&lt;button class=&quot;btn btn-float btn-float-primary&quot;&gt;&lt;i class=&quot;fas fa-trash-alt&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+                        </code>
+                    </pre>
                 </div>
             </section>
 
@@ -141,6 +156,8 @@
 
     </footer>
 
+    <script src="../../highlight/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
     <script src="../../js/header.js"></script>
 </body>
 
