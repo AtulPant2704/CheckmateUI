@@ -51,7 +51,6 @@
 
 /* Buttons and Icons Styling Starts */
 .btn-login {
-  /* margin-left: 5rem; */
   padding: 0.4rem 1rem;
   font-size: 1.1rem;
   background-color: var(--primary-color);
