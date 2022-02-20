@@ -1,0 +1,57 @@
+@import url("../get-started.css");
+@import url("../Button/button.css");
+@import url("../Card/card.css");
+
+.grid-container {
+  margin: 2rem 0;
+}
+
+.two-col-grid-container {
+  background-color: var(--row-color);
+  border-radius: 5px;
+  padding: 1rem;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+}
+
+.two-col-grid-container img {
+  width: 100%;
+}
+
+.two-col-grid-container .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.two-col-grid-container .grid-heading {
+  font-size: calc(1.2rem + 1vw);
+}
+
+.two-col-grid-container .grid-subheading {
+  font-size: calc(1rem + 1vw);
+}
+
+.two-col-grid-container .btn {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.two-col-grid-container .btn:hover {
+  background-color: var(--secondary-hover-color);
+}
+
+.three-col-grid-container {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.three-col-grid-container .product-card {
+  width: 15rem;
+  margin: auto;
+}
