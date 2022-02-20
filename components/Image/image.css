@@ -1,26 +1,22 @@
 @import url("../get-started.css");
 
 .img-container {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .img-responsive-container {
-    width: 35vw;
+  width: 35vw;
 }
 
 .img-circle-container {
-    width: 15vw;
+  width: 15vw;
 }
 
 .img-responsive {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .img-circle {
-    border-radius: 50%;
-}
-
-.iframe-sm {
-    height: 20vh;
+  border-radius: 50%;
 }

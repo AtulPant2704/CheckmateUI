@@ -1,50 +1,50 @@
 @import url("../get-started.css");
 
 .btn {
-    padding: 0.5rem 1rem;
-    font-size: 1.2rem;
-    cursor: pointer;
-    border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 /* Primary Button Styling Starts */
 
 .btn-container {
-    margin: 1.5rem 0;
-    display: inline-flex;
-    gap: 1rem;
-    flex-wrap: wrap;
+  margin: 1.5rem 0;
+  display: inline-flex;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .btn-solid-primary {
-    background-color: var(--primary-color);
-    color: white;
-    border: none;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
 }
 
 .btn-solid-primary:hover {
-    background-color: var(--primary-hover-color);
+  background-color: var(--primary-hover-color);
 }
 
 .btn-outline-primary {
-    background-color: white;
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+  background-color: white;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
 .btn-outline-primary:hover {
-    color: white;
-    background-color: var(--primary-color);
+  color: white;
+  background-color: var(--primary-color);
 }
 
 .btn-text-primary {
-    background-color: white;
-    color: var(--primary-color);
-    border: none;
+  background-color: white;
+  color: var(--primary-color);
+  border: none;
 }
 
 .btn-text-primary:hover {
-    background-color: #ffeeee;
+  background-color: #ffeeee;
 }
 
 /* Primary Button Styling Ends */
@@ -52,19 +52,19 @@
 /* Link Button Styling Starts */
 
 .btn-link {
-    background-color: var(--secondary-color);
-    border: none;
-    margin: 1rem 0;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 1rem 0;
 }
 
 .btn-link:hover {
-    background-color: var(--secondary-hover-color);
+  background-color: var(--secondary-hover-color);
 }
 
 .btn-link a {
-    text-decoration: none;
-    color: white;
-    padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 1rem;
 }
 
 /* Link Button Styling Ends */
@@ -72,29 +72,29 @@
 /* Icon Button Styling Starts */
 
 .btn-text-icon {
-    color: white;
-    border: none;
+  color: white;
+  border: none;
 }
 
 .btn-text-icon-primary {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 .btn-text-icon-secondary {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .btn-text-icon-primary:hover {
-    background-color: var(--primary-hover-color);
+  background-color: var(--primary-hover-color);
 }
 
 .btn-text-icon-secondary:hover {
-    background-color: var(--secondary-hover-color);
+  background-color: var(--secondary-hover-color);
 }
 
 .btn-text-icon i {
-    color: white;
-    margin-right: 0.5rem;
+  color: white;
+  margin-right: 0.5rem;
 }
 
 /* Icon Button Styling Ends */
@@ -102,48 +102,28 @@
 /* Floating Button Styling Starts */
 
 .btn-float {
-    color: white;
-    border-radius: 50%;
-    border: none;
-    height: 4rem;
-    width: 4rem;
-    font-size: 1.3rem;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  height: 4rem;
+  width: 4rem;
+  font-size: 1.3rem;
 }
 
 .btn-float-primary {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 
 .btn-float-secondary {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .btn-float-primary:hover {
-    background-color: var(--primary-hover-color);
+  background-color: var(--primary-hover-color);
 }
 
 .btn-float-secondary:hover {
-    background-color: var(--secondary-hover-color);
+  background-color: var(--secondary-hover-color);
 }
 
 /* Floating Button Styling Ends */
-
-/* Iframe Styling Starts */
-
-.iframe-sm {
-    height: 22vh;
-}
-
-.iframe-vs {
-    height: 18vh;
-}
-
-.iframe-lg {
-    height: 42vh;
-}
-
-.iframe-md {
-    height: 32vh;
-}
-
-/* Iframe Styling Ends */

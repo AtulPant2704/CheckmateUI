@@ -1,56 +1,62 @@
 @import url("../get-started.css");
 
 .alert-container {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 .alert {
-    width: 80%;
-    margin: 2rem 0;
-    padding: 1rem;
-    font-size: 1.1rem;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 80%;
+  margin: 2rem 0;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .alert span {
-    font-size: 1.3rem;
-    margin: 0rem 1rem;
+  font-size: 1.3rem;
+  margin: 0rem 1rem;
 }
 
 .alert-info {
-    background-color: var(--info-light-color);
+  background-color: var(--info-light-color);
 }
 
 .alert-info span {
-    color: var(--info-color);
+  color: var(--info-color);
 }
 
 .alert-success {
-    background-color: var(--success-light-color);
+  background-color: var(--success-light-color);
 }
 
 .alert-success span {
-    color: var(--success-color);
+  color: var(--success-color);
 }
 
 .alert-danger {
-    background-color: var(--danger-light-color);
+  background-color: var(--danger-light-color);
 }
 
 .alert-danger span {
-    color: var(--danger-color);
+  color: var(--danger-color);
 }
 
 .alert-warning {
-    background-color: var(--warning-light-color);
+  background-color: var(--warning-light-color);
 }
 
 .alert-warning span {
-    color: var(--warning-color);
+  color: var(--warning-color);
 }
 
 .iframe-md {
-    margin-top: 3rem;
-    height: 65vh;
+  margin-top: 3rem;
+  height: 65vh;
+}
+
+@media only screen and (max-width: 550px) {
+  .alert {
+    width: 100%;
+  }
 }

@@ -273,22 +273,6 @@
 
 /* Ecommerce Bill Card Styling Ends */
 
-/* Iframe Styling Starts */
-
-.iframe-md {
-  height: 50vh;
-}
-
-.iframe-sm {
-  height: 45vh;
-}
-
-.iframe-x-lg {
-  height: 75vh;
-}
-
-/* Iframe Styling Ends */
-
 /* Responsiveness Styling Starts */
 @media only screen and (max-width: 1100px) {
   .card {
