@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../highlight/styles/atom-one-dark-reasonable.min.css">
     <script defer src="https://kit.fontawesome.com/829cb68a23.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="../../assets/favicon-32x32.webp" />
     <link rel="stylesheet" href="./modal.css">
@@ -69,11 +70,19 @@
                         <button class="btn btn-outline-primary">Action 2</button>
                     </div>
                 </div>
-                <div class="iframe-wrapper iframe-md">
-                    <iframe class="iframe-code"
-                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522modal-heading%2522%253EModal%2520Heading%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522modal-subheading%2522%253EModal%2520subheading%2520displaying%2520certain%2520piece%2520of%2520information.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-solid-primary%2522%253EAction%25201%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2522%253EAction%25202%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="code-wrapper">
+                    <pre class="code-embed">
+                        <code class="code tag">
+&lt;div class=&quot;modal-container&quot;&gt;
+    &lt;h3 class=&quot;modal-heading&quot;&gt;Modal Heading&lt;/h3&gt;
+    &lt;p class=&quot;modal-subheading&quot;&gt;Modal subheading displaying certain piece of information.&lt;/p&gt;
+    &lt;div class=&quot;modal-btns&quot;&gt;
+        &lt;button class=&quot;btn btn-solid-primary&quot;&gt;Action 1&lt;/button&gt;
+        &lt;button class=&quot;btn btn-outline-primary&quot;&gt;Action 2&lt;/button&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+                        </code>
+                    </pre>
                 </div>
             </section>
 
@@ -95,6 +104,8 @@
 
     </footer>
 
+    <script src="../../highlight/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
     <script src="../../js/header.js"></script>
     
 </body>

@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/829cb68a23.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../highlight/styles/atom-one-dark-reasonable.min.css">
+    <script defer src="https://kit.fontawesome.com/829cb68a23.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="../assets/favicon-32x32.webp" />
     <link rel="stylesheet" href="./get-started.css">
     <title>Getting Started</title>
@@ -58,22 +59,42 @@
             <section>
                 <h2 class="section-heading">Installation Guide</h2>
                 <p class="section-para">In order to use CheckMate UI, just copy paste the below link in the head tag of your html document, above all other stylesheets.</p>
-                <div class="iframe-wrapper iframe-sm">
-                    <iframe class="iframe-code"
-                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fcheckmate-ui.netlify.app%252Fcss%252Fcomponents.css%2522%2520%252F%253E"
-                            sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="code-wrapper">
+                    <pre class="code-embed">
+                        <code class="code tag">
+&lt;link rel=&quot;stylesheet&quot; href=&quot;https://checkmate-ui.netlify.app/css/components.css&quot; /&gt;
+                        </code>
+                    </pre>
                 </div>
             </section>
     
             <section>
                 <h2 class="section-heading">Starter template</h2>
                 <p class="section-para">Set up your page with latest designs and development standards, which means tp use HTML5 doctype and a viewport meta tag so that responsive behaviour of the components can be maintained.</p>
-                <div class="iframe-wrapper iframe-lg">
-                    <iframe class="iframe-code"
-                            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21DOCTYPE%2520html%253E%250A%253Chtml%2520lang%253D%2522en%2522%253E%250A%250A%253Chead%253E%250A%2520%2520%2520%2520%253Cmeta%2520charset%253D%2522UTF-8%2522%253E%250A%2520%2520%2520%2520%253Cmeta%2520http-equiv%253D%2522X-UA-Compatible%2522%2520content%253D%2522IE%253Dedge%2522%253E%250A%2520%2520%2520%2520%253Cmeta%2520name%253D%2522viewport%2522%2520content%253D%2522width%253Ddevice-width%252C%2520initial-scale%253D1.0%2522%253E%250A%250A%2520%2520%2520%2520%253C%21--%2520CheckMate%2520CSS%2520--%253E%250A%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fcheckmate-ui.netlify.app%252Fcss%252Fcomponents.css%2522%2520%252F%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Ctitle%253ECheckMate%2520UI%253C%252Ftitle%253E%250A%253C%252Fhead%253E%250A%250A%253Cbody%253E%250A%2520%2520%2520%2520%253Ch2%253EHello%252C%2520CheckMate%21%253C%252Fh2%253E%250A%253C%252Fbody%253E%250A%250A%253C%252Fhtml%253E"
-                            sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                <div class="code-wrapper">
+                    <pre class="code-embed">
+                        <code class="code tag">
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+
+    &lt;!-- CheckMate CSS --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://checkmate-ui.netlify.app/css/components.css&quot; /&gt;
+    
+    &lt;title&gt;CheckMate UI&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;h2&gt;Hello, CheckMate!&lt;/h2&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+                        </code>
+                    </pre>
                 </div>
             </section>
             
@@ -95,6 +116,8 @@
 
     </footer>
 
+    <script src="../highlight/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
     <script src="../js/header.js"></script>
 </body>
 
