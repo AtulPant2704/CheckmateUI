@@ -44,6 +44,10 @@
   font-size: 1rem;
 }
 
+.user-history label {
+  cursor: pointer;
+}
+
 .user-history a {
   margin-left: 2rem;
   color: var(--secondary-color);

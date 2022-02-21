@@ -42,6 +42,7 @@
 .btn-search {
   color: var(--primary-color);
   margin-right: 0.5rem;
+  cursor: pointer;
 }
 
 .input-search {

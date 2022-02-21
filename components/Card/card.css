@@ -151,6 +151,7 @@
   color: white;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .ecommerce-btn:hover {
@@ -178,6 +179,7 @@
   top: 0%;
   right: 0%;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .product-card .img-container .card-badge {
@@ -231,6 +233,7 @@
   background-color: white;
   border: none;
   color: var(--secondary-color);
+  cursor: pointer;
 }
 
 .cart-card .wishlist-btn {
