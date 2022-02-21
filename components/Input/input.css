@@ -29,20 +29,20 @@
   outline: none;
 }
 
-.input-wrong {
+.input-error {
   color: var(--danger-color);
 }
 
-.input-wrong input {
+.input-error input {
   border: 1px solid var(--danger-color);
   outline: none;
 }
 
-.input-right {
+.input-success {
   color: var(--success-color);
 }
 
-.input-right input {
+.input-success input {
   border: 1px solid var(--success-color);
   outline: none;
 }
