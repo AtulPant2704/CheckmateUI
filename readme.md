@@ -205,11 +205,11 @@ There is a single hamburger present in the library.
 
 ## Desktop Version
 
-![checkmate ui gif](assets/checkmate-ui-desktop.gif)
+![checkmate ui gif](<assets/checkmate-ui-desktop(new).gif>)
 
 ## Mobile Version
 
-<img src="./assets/checkmate-ui-mobile-org.gif" style="width: 40%; height: auto;"/>
+<img src="./assets/checkmate-ui-mobile(new).gif" style="width: 40%; height: auto;"/>
 
 ---
 
